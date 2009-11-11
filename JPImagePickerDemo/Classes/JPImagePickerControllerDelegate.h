@@ -15,6 +15,6 @@
 @protocol JPImagePickerControllerDelegate 
 
 - (void)imagePickerDidCancel:(JPImagePickerController *)picker;
-- (void)imagePicker:(JPImagePickerController *)picker didFinishPickingMediaWithImageNumber:(NSInteger)imageNumber;
+- (void)imagePicker:(JPImagePickerController *)picker didFinishPickingWithImageNumber:(NSInteger)imageNumber;
 
 @end

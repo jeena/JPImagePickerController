@@ -270,8 +270,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
-									<integer>25</integer>
+									<integer>11</integer>
+									<integer>2</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -312,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.m</string>
+								<string>JPImagePickerDetailController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,26 +322,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.m</string>
+										<string>JPImagePickerDetailController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1FB6FC3710AB0BD400232E4B</string>
+										<string>1FB6FC4410AB158D00232E4B</string>
 										<key>history</key>
 										<array>
 											<string>1FBADE5110AAFBE900BAB679</string>
 											<string>1FBADE5310AAFBE900BAB679</string>
 											<string>1FBADE5410AAFBE900BAB679</string>
 											<string>1FBADE7210AAFCF300BAB679</string>
-											<string>1FB6FC2E10AB0BD400232E4B</string>
-											<string>1FB6FC2F10AB0BD400232E4B</string>
 											<string>1FB6FC3010AB0BD400232E4B</string>
 											<string>1FB6FC3110AB0BD400232E4B</string>
 											<string>1FB6FC3210AB0BD400232E4B</string>
-											<string>1FB6FC3310AB0BD400232E4B</string>
 											<string>1FB6FC3410AB0BD400232E4B</string>
 											<string>1FB6FC3510AB0BD400232E4B</string>
-											<string>1FB6FC3610AB0BD400232E4B</string>
+											<string>1FB6FC3F10AB158D00232E4B</string>
+											<string>1FB6FC4010AB158D00232E4B</string>
+											<string>1FB6FC4110AB158D00232E4B</string>
+											<string>1FB6FC4210AB158D00232E4B</string>
+											<string>1FB6FC4310AB158D00232E4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -537,6 +540,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1FBADE3B10AAFAF000BAB679</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/JPImagePickerDemo.xcodeproj</string>
@@ -663,8 +668,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {316, 194}}</string>
+											<string>{{316, 0}, {378, 194}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -679,8 +684,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {694, 194}}</string>
+											<string>{{0, 194}, {694, 187}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -713,7 +718,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{316, 0}, {378, 194}}</string>
 									<key>RubberWindowFrame</key>
 									<string>59 714 694 422 0 0 1920 1178 </string>
 								</dict>
@@ -741,13 +746,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>1FBADE9310AAFEDE00BAB679</string>
+				<string>1FB6FC4510AB158D00232E4B</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>1FBADE9410AAFEDE00BAB679</string>
-				<string>1FBADE9510AAFEDE00BAB679</string>
-				<string>1FBADE9610AAFEDE00BAB679</string>
-				<string>1FBADE9710AAFEDE00BAB679</string>
-				<string>1FBADE9810AAFEDE00BAB679</string>
+				<string>1FB6FC4610AB158D00232E4B</string>
+				<string>1FB6FC4710AB158D00232E4B</string>
+				<string>1FB6FC4810AB158D00232E4B</string>
+				<string>1FB6FC4910AB158D00232E4B</string>
+				<string>1FB6FC4A10AB158D00232E4B</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -901,7 +906,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>1FBADE9910AAFEDE00BAB679</string>
+				<string>1FB6FC4B10AB158D00232E4B</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

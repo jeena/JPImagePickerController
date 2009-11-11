@@ -45,7 +45,7 @@
 		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
 		name = "JPImagePickerControllerDelegate.h: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 494;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -55,7 +55,7 @@
 		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
 		name = "JPImagePickerControllerDelegate.h: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 494;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;
@@ -147,6 +147,66 @@
 		vrLen = 366;
 		vrLoc = 0;
 	};
+	1FB6FC3F10AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 9";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	1FB6FC4010AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
+		name = "JPImagePickerControllerDelegate.h: 18";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	1FB6FC4110AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */;
+		name = "JPImagePickerControllerDataSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	1FB6FC4210AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 197";
+		rLen = 0;
+		rLoc = 6016;
+		rType = 0;
+		vrLen = 1305;
+		vrLoc = 5498;
+	};
+	1FB6FC4310AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 0;
+	};
+	1FB6FC4410AB158D00232E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 81";
+		rLen = 0;
+		rLoc = 2640;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 1518;
+	};
 	1FBADE2A10AAFAD300BAB679 /* JPImagePickerDemo */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -198,16 +258,16 @@
 	};
 	1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 999}}";
+			sepNavIntBoundsRect = "{{0, 0}, {994, 667}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 603}";
 		};
 	};
 	1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 999}}";
-			sepNavSelRange = "{499, 0}";
-			sepNavVisRange = "{0, 503}";
+			sepNavIntBoundsRect = "{{0, 0}, {994, 667}}";
+			sepNavSelRange = "{452, 0}";
+			sepNavVisRange = "{0, 498}";
 		};
 	};
 	1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */ = {
@@ -229,6 +289,13 @@
 			sepNavIntBoundsRect = "{{0, 0}, {994, 999}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 835}";
+		};
+	};
+	1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1783, 1545}}";
+			sepNavSelRange = "{2640, 0}";
+			sepNavVisRange = "{1518, 1504}";
 		};
 	};
 	1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */ = {
@@ -273,7 +340,7 @@
 		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
 		name = "JPImagePickerControllerDelegate.h: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 494;
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 0;
@@ -311,9 +378,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 3705}}";
-			sepNavSelRange = "{150, 0}";
-			sepNavVisRange = "{0, 1512}";
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 3285}}";
+			sepNavSelRange = "{6016, 0}";
+			sepNavVisRange = "{5498, 1305}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -396,6 +463,12 @@
 			1FB6FC3510AB0BD400232E4B /* PBXTextBookmark */ = 1FB6FC3510AB0BD400232E4B /* PBXTextBookmark */;
 			1FB6FC3610AB0BD400232E4B /* PBXTextBookmark */ = 1FB6FC3610AB0BD400232E4B /* PBXTextBookmark */;
 			1FB6FC3710AB0BD400232E4B /* PBXTextBookmark */ = 1FB6FC3710AB0BD400232E4B /* PBXTextBookmark */;
+			1FB6FC3F10AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC3F10AB158D00232E4B /* PBXTextBookmark */;
+			1FB6FC4010AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC4010AB158D00232E4B /* PBXTextBookmark */;
+			1FB6FC4110AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC4110AB158D00232E4B /* PBXTextBookmark */;
+			1FB6FC4210AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC4210AB158D00232E4B /* PBXTextBookmark */;
+			1FB6FC4310AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC4310AB158D00232E4B /* PBXTextBookmark */;
+			1FB6FC4410AB158D00232E4B /* PBXTextBookmark */ = 1FB6FC4410AB158D00232E4B /* PBXTextBookmark */;
 			1FBADE5110AAFBE900BAB679 = 1FBADE5110AAFBE900BAB679 /* PBXTextBookmark */;
 			1FBADE5310AAFBE900BAB679 = 1FBADE5310AAFBE900BAB679 /* PBXTextBookmark */;
 			1FBADE5410AAFBE900BAB679 = 1FBADE5410AAFBE900BAB679 /* PBXTextBookmark */;
@@ -410,7 +483,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 690}}";
+			sepNavIntBoundsRect = "{{0, 0}, {994, 667}}";
 			sepNavSelRange = "{136, 0}";
 			sepNavVisRange = "{0, 366}";
 		};

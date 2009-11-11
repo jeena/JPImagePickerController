@@ -194,7 +194,7 @@
 	[self.navigationController dismissModalViewControllerAnimated:YES];
 }
 
-- (void)imagePicker:(JPImagePickerController *)picker didFinishPickingMediaWithImageNumber:(NSInteger)imageNumber {
+- (void)imagePicker:(JPImagePickerController *)picker didFinishPickingWithImageNumber:(NSInteger)imageNumber {
 	chosenImage = imageNumber;
 	[self.tableView reloadData];
 	[self.navigationController dismissModalViewControllerAnimated:YES];
