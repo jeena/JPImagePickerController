@@ -3,20 +3,17 @@
 //  JPImagePickerDemo
 //
 //  Created by Jeena on 11.11.09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Copyright Jeena Paradies 2009. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@class JPImagePickerDemoViewController;
-
 @interface JPImagePickerDemoAppDelegate : NSObject <UIApplicationDelegate> {
+    
     UIWindow *window;
-    JPImagePickerDemoViewController *viewController;
+    UINavigationController *navigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet JPImagePickerDemoViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 
 @end
 
