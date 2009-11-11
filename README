@@ -12,3 +12,13 @@ Licence: MIT-Licence
 I am trying to host this on github because I hope that other users need this
 functionality and will help to build upp the whole thing. You're welcome to
 fork it or help out with debugging and new functionality.
+
+
+How to use
+==========
+
+Check out the Demo to get an first impression.
+
+First you have to implement the JPImagePickerControllerDelegate and the
+JPImagePickerControllerDataSource prococols. Then allocate a new
+JPImagePickerController object and set the delegate and dataSource.
