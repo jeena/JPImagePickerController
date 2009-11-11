@@ -1,0 +1,14 @@
+JPImagePickerController
+=======================
+
+JPImagePickerController is the attempt to copy apples UIImagePickerController
+for the iPhone with dataSource methods, so you can use it for remote images
+and images bundeld with your app.
+
+Author: Jeena Paradies <spam@jeenaparadies.net>
+Licence: MIT-Licence
+
+
+I am trying to host this on github because I hope that other users need this
+functionality and will help to build upp the whole thing. You're welcome to
+fork it or help out with debugging and new functionality.
