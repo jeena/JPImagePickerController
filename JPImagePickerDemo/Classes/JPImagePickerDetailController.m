@@ -3,7 +3,8 @@
 //  JPImagePickerController
 //
 //  Created by Jeena on 11.11.09.
-//  Copyright 2009 Jeena Paradies. All rights reserved.
+//  Copyright 2009 Jeena Paradies.
+//  Licence: MIT-Licence
 //
 
 #import "JPImagePickerDetailController.h"

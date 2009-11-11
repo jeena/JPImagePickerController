@@ -3,7 +3,8 @@
 //  JPImagePickerController
 //
 //  Created by Jeena on 07.11.09.
-//  Copyright 2009 Jeena Paradies. All rights reserved.
+//  Copyright 2009 Jeena Paradies.
+//  Licence: MIT-Licence
 //
 //  Most of this code is from http://stackoverflow.com/questions/603907/uiimage-resize-then-crop
 

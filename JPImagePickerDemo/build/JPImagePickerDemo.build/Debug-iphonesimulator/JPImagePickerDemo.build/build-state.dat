@@ -64,6 +64,290 @@ c000000004ABDCA4700000000000019F9
 t1253952071
 s6649
 
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerController.h
+c000000004AFAD3CF00000000000004FF
+t1257952207
+s1279
+i<UIKit/UIKit.h>
+i"JPImagePickerControllerDelegate.h"
+i"JPImagePickerControllerDataSource.h"
+i"JPImagePickerOverviewController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerController.m
+c000000004AFAD3CF0000000000000B94
+t1257952207
+s2964
+i"JPImagePickerController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerControllerDataSource.h
+c000000004AFAD3CF000000000000025B
+t1257952207
+s603
+i<Foundation/Foundation.h>
+i"JPImagePickerController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerControllerDelegate.h
+c000000004AFAD3CF00000000000001F7
+t1257952207
+s503
+i<Foundation/Foundation.h>
+i"JPImagePickerController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.h
+c000000004AFAC45800000000000001CF
+t1257948248
+s463
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m
+c000000004AFAC4580000000000000355
+t1257948248
+s853
+i"JPImagePickerDemoAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDetailController.h
+c000000004AFAD3CF0000000000000475
+t1257952207
+s1141
+i<UIKit/UIKit.h>
+i"JPImagePickerControllerDelegate.h"
+i"JPImagePickerController.h"
+i"JPImagePickerOverviewController.h"
+i"UIImageResizing.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDetailController.m
+c000000004AFAD3CF0000000000000BD3
+t1257952207
+s3027
+i"JPImagePickerDetailController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDetailController.xib
+c000000004AFA951700000000000054B4
+t1257936151
+s21684
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerOverviewController.h
+c000000004AFAD3CF00000000000004BB
+t1257952207
+s1211
+i<UIKit/UIKit.h>
+i"JPImagePickerController.h"
+i"JPImagePickerControllerDelegate.h"
+i"JPImagePickerControllerDataSource.h"
+i"JPImagePickerDetailController.h"
+i"UIImageResizing.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m
+c000000004AFAD3CF0000000000000FB1
+t1257952207
+s4017
+i"JPImagePickerOverviewController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerOverviewController.xib
+c000000004AFA926B0000000000004695
+t1257935467
+s18069
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/RootViewController.h
+c000000004AFAC860000000000000027C
+t1257949280
+s636
+i"JPImagePickerControllerDelegate.h"
+i"JPImagePickerControllerDataSource.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/RootViewController.m
+c000000004AFACC4A0000000000001A94
+t1257950282
+s6804
+i"RootViewController.h"
+i"JPImagePickerController.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/UIImageResizing.h
+c000000004AFAD3CF0000000000000343
+t1257952207
+s835
+i<Foundation/Foundation.h>
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/UIImageResizing.m
+c000000004AFAD3CF0000000000000F16
+t1257952207
+s3862
+i"UIImageResizing.h"
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/JPImagePickerDemo_Prefix.pch
+c000000004AFAC3530000000000000154
+t1257947987
+s340
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/MainWindow.xib
+c000000004AFAC3530000000000002C89
+t1257947987
+s11401
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/RootViewController.xib
+c000000004AFACC450000000000004E7C
+t1257950277
+s20092
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app
+t1257950284
+s612
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM
+t1257950284
+s102
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/Info.plist
+t1257948986
+s610
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo
+t1257950284
+s46548
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDetailController.nib
+t1257948987
+s2000
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerOverviewController.nib
+t1257948987
+s1355
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/MainWindow.nib
+t1257948987
+s2022
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/PkgInfo
+t1257948986
+s8
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/RootViewController.nib
+t1257950284
+s1697
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/i1.png
+t1257948987
+s127869
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/i2.png
+t1257948987
+s129571
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/i3.png
+t1257948987
+s786931
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/i4.png
+t1257948987
+s342322
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/noImageSelected.png
+t1257948987
+s5128
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/t1.png
+t1257948987
+s14919
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/t2.png
+t1257948987
+s15247
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/t3.png
+t1257948987
+s4556
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/t4.png
+t1257948987
+s5298
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerController.o
+t1257948989
+s44584
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemo.LinkFileList
+c000000004AFAC73A0000000000000461
+t1257948986
+s1121
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemoAppDelegate.o
+t1257949443
+s40072
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDetailController.o
+t1257948989
+s43064
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerOverviewController.o
+t1257948989
+s46912
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/RootViewController.o
+t1257950284
+s45304
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/UIImageResizing.o
+t1257948989
+s14228
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/main.o
+t1257948988
+s5960
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/i1.png
+c000000004AF4AEBC000000000001F37D
+t1257549500
+s127869
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/i2.png
+c000000004AF4AECE000000000001FA23
+t1257549518
+s129571
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/i3.png
+c000000004AF5E64500000000000C01F3
+t1257629253
+s786931
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/i4.png
+c000000004AF553F00000000000053932
+t1257591792
+s342322
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/main.m
+c000000004AFAC458000000000000016A
+t1257948248
+s362
+i<UIKit/UIKit.h>
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/noImageSelected.png
+c000000004AFAB3170000000000001408
+t1257943831
+s5128
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/t1.png
+c000000004AF4AEA20000000000003A47
+t1257549474
+s14919
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/t2.png
+c000000004AF4AEAE0000000000003B8F
+t1257549486
+s15247
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/t3.png
+c000000004AF5E67200000000000011CC
+t1257629298
+s4556
+
+N/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/t4.png
+c000000004AF5F6CA00000000000014B2
+t1257633482
+s5298
+
 N/Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerController.h
 c000000004AFAC45800000000000004FB
 t1257948248
@@ -346,6 +630,10 @@ c000000004AF5F6CA00000000000014B2
 t1257633482
 s5298
 
+N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-bnqcateynndgjzbnupefcatmctos/JPImagePickerDemo_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch.gch
 t1257948988
 s13034960
@@ -358,6 +646,9 @@ s909
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies279643084#279643084#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerController.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerController.o /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641788.933521
@@ -372,6 +663,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerController.m279641788#279641789#0(0"0(0#0#73"/Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerController.m4300885448#2116"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerController.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerController.o0#
 
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemoAppDelegate.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemoAppDelegate.o /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279642243.098670
 e279642243.201955
@@ -384,6 +678,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m279642243#279642243#0(0"0(0#0#78"/Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m4300885448#2126"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDemoAppDelegate.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemoAppDelegate.o0#
+
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDetailController.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDetailController.o /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641788.981874
@@ -398,6 +695,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDetailController.m279641788#279641789#0(0"0(0#0#79"/Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDetailController.m4300885448#2128"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDetailController.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDetailController.o0#
 
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerOverviewController.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerOverviewController.o /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641789.045456
 e279641789.193031
@@ -410,6 +710,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m279641789#279641789#0(0"0(0#0#81"/Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m4300885448#2132"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerOverviewController.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerOverviewController.o0#
+
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/RootViewController.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/RootViewController.o /Users/jeena/Projects/JPImagePickerDemo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279643084.482617
@@ -424,6 +727,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/RootViewController.m279643084#279643084#0(0"0(0#0#68"/Users/jeena/Projects/JPImagePickerDemo/Classes/RootViewController.m4300885448#2106"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/RootViewController.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/RootViewController.o0#
 
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/UIImageResizing.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/UIImageResizing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/UIImageResizing.o /Users/jeena/Projects/JPImagePickerDemo/Classes/UIImageResizing.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641789.085944
 e279641789.178793
@@ -437,6 +743,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/jeena/Projects/JPImagePickerDemo/Classes/UIImageResizing.m279641789#279641789#0(0"0(0#0#65"/Users/jeena/Projects/JPImagePickerDemo/Classes/UIImageResizing.m4300885448#2100"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/Classes/UIImageResizing.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/UIImageResizing.o0#
 
+CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/main.o /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/main.o /Users/jeena/Projects/JPImagePickerDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641788.848137
 e279641788.910410
@@ -449,6 +758,18 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@54"Compile /Users/jeena/Projects/JPImagePickerDemo/main.m279641788#279641788#0(0"0(0#0#46"/Users/jeena/Projects/JPImagePickerDemo/main.m4300885448#2070"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -include /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch -c /Users/jeena/Projects/JPImagePickerDemo/main.m -o /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerDetailController.xib
+r0
+
+CCompileXIB /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerOverviewController.xib
+r0
+
+CCompileXIB /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/MainWindow.xib
+r0
+
+CCompileXIB /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/RootViewController.xib
+r0
 
 CCompileXIB /Users/jeena/Projects/JPImagePickerDemo/Classes/JPImagePickerDetailController.xib
 s279641787.086125
@@ -563,6 +884,9 @@ xbuild/Debug-iphonesimulator/JPImagePickerDemo.app/t4.png
 xt4.png
 lSLF07#2@11"Copy t4.png279641787#279641787#0(0"0(0#0#46"/Users/jeena/Projects/JPImagePickerDemo/t4.png4300885448#463"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeena/Projects/JPImagePickerDemo/t4.png /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app0#
 
+CGenerateDSYMFile /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo
+r0
+
 CGenerateDSYMFile /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo
 s279643084.642782
 e279643084.663977
@@ -571,6 +895,9 @@ xGenerateDSYMFile
 x/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM
 x/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo
 lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo279643084#279643084#0(0"0(0#0#107"/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo4300885448#416"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo -o /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app.dSYM0#
+
+CLd /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo normal i386
+r0
 
 CLd /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo normal i386
 s279643084.618182
@@ -582,6 +909,9 @@ xnormal
 xi386
 lSLF07#2@112"Link /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo279643084#279643084#0(0"0(0#0#0"4300885448#919"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -filelist /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/Objects-normal/i386/JPImagePickerDemo.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/JPImagePickerDemo0#
 
+CProcessInfoPlistFile /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/Info.plist JPImagePickerDemo-Info.plist
+r0
+
 CProcessInfoPlistFile /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/Info.plist JPImagePickerDemo-Info.plist
 s279641786.752746
 e279641786.773586
@@ -590,6 +920,9 @@ xProcessInfoPlistFile
 x/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/Info.plist
 xJPImagePickerDemo-Info.plist
 lSLF07#2@36"Process JPImagePickerDemo-Info.plist279641786#279641786#0(0"0(0#0#68"/Users/jeena/Projects/JPImagePickerDemo/JPImagePickerDemo-Info.plist28429264713023588#512"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility JPImagePickerDemo-Info.plist -genpkginfo /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-bnqcateynndgjzbnupefcatmctos/JPImagePickerDemo_Prefix.pch.gch JPImagePickerDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CProcessPCH /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch.gch JPImagePickerDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s279641787.534271
@@ -603,6 +936,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@39"Precompile JPImagePickerDemo_Prefix.pch279641787#279641788#0(0"0(0#0#68"/Users/jeena/Projects/JPImagePickerDemo/JPImagePickerDemo_Prefix.pch5785488844197815296#1951"    cd /Users/jeena/Projects/JPImagePickerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-generated-files.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-own-target-headers.hmap -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-all-target-headers.hmap -iquote /Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/JPImagePickerDemo-project-headers.hmap -F/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator -I/Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/include -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources/i386 -I/Users/jeena/Projects/JPImagePickerDemo/build/JPImagePickerDemo.build/Debug-iphonesimulator/JPImagePickerDemo.build/DerivedSources -c /Users/jeena/Projects/JPImagePickerDemo/JPImagePickerDemo_Prefix.pch -o /var/folders/zD/zDRcSKAkH4qw4uzdwEpSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPImagePickerDemo_Prefix-fbjjrxgyeetirnecylhgibgnsbqr/JPImagePickerDemo_Prefix.pch.gch0#
+
+CTouch /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app
+r0
 
 CTouch /Users/jeena/Projects/JPImagePickerDemo/build/Debug-iphonesimulator/JPImagePickerDemo.app
 s279643084.664072

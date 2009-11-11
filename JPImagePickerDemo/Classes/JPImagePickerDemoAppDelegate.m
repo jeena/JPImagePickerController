@@ -3,7 +3,8 @@
 //  JPImagePickerDemo
 //
 //  Created by Jeena on 11.11.09.
-//  Copyright Jeena Paradies 2009. All rights reserved.
+//  Copyright Jeena Paradies 2009.
+//  Licence: MIT-Licence
 //
 
 #import "JPImagePickerDemoAppDelegate.h"
