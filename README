@@ -22,3 +22,6 @@ Check out the Demo to get an first impression.
 First you have to implement the JPImagePickerControllerDelegate and the
 JPImagePickerControllerDataSource prococols. Then allocate a new
 JPImagePickerController object and set the delegate and dataSource.
+
+There is a HTML documentation on that in the demo application, open the
+Documentation/index.html file in a browser.
