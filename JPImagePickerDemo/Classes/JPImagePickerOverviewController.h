@@ -9,14 +9,11 @@
 
 #import <UIKit/UIKit.h>
 #import "JPImagePickerController.h"
-#import "JPImagePickerControllerDelegate.h"
-#import "JPImagePickerControllerDataSource.h"
 #import "JPImagePickerDetailController.h"
 #import "UIImageResizing.h"
 
-@protocol JPImagePickerControllerDelegate;
-@protocol JPImagePickerControllerDataSource;
-@class JPImagePickerDetailController;
+@class JPImagePickerController, JPImagePickerDetailController;
+@protocol JPImagePickerControllerDelegate, JPImagePickerControllerDataSource;
 
 @interface JPImagePickerOverviewController : UIViewController {
 	JPImagePickerController *imagePickerController;

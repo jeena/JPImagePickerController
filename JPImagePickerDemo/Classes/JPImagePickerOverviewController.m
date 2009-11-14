@@ -15,9 +15,7 @@
 @synthesize imagePickerController, detailController, scrollView;
 
 #define PADDING_TOP 44
-#define COLS 4
 #define PADDING 4
-#define THUMBNAIL_SIZE 75
 #define THUMBNAIL_COLS 4
 
 - (id)initWithImagePickerController:(JPImagePickerController *)newImagePickerController {
@@ -48,7 +46,7 @@
 	
 	for (int i=0; i<images_count; i++) {
 		thumbnail = [[imagePickerController.dataSource imagePicker:imagePickerController thumbnailForImageNumber:(NSInteger)i]
-					 scaleAndCropToSize:CGSizeMake(THUMBNAIL_SIZE, THUMBNAIL_SIZE)
+					 scaleAndCropToSize:CGSizeMake(kJPImagePickerControllerThumbnailSizeWidth, kJPImagePickerControllerThumbnailSizeHeight)
 					 onlyIfNeeded:NO];
 		
 		button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -57,10 +55,10 @@
 		button.userInteractionEnabled = YES;
 		[button addTarget:self action:@selector(buttonTouched:) forControlEvents:UIControlEventTouchUpInside];
 		button.tag = i;
-		button.frame = CGRectMake(THUMBNAIL_SIZE * (i % COLS) + PADDING * (i % COLS) + PADDING,
-								  THUMBNAIL_SIZE * (i / THUMBNAIL_COLS) + PADDING * (i / THUMBNAIL_COLS) + PADDING + PADDING_TOP,
-								  THUMBNAIL_SIZE,
-								  THUMBNAIL_SIZE);
+		button.frame = CGRectMake(kJPImagePickerControllerThumbnailSizeWidth * (i % THUMBNAIL_COLS) + PADDING * (i % THUMBNAIL_COLS) + PADDING,
+								  kJPImagePickerControllerThumbnailSizeHeight * (i / THUMBNAIL_COLS) + PADDING * (i / THUMBNAIL_COLS) + PADDING + PADDING_TOP,
+								  kJPImagePickerControllerThumbnailSizeWidth,
+								  kJPImagePickerControllerThumbnailSizeHeight);
 		
 		[scrollView addSubview:button];
 	}
@@ -69,7 +67,7 @@
 	if (((float)images_count / THUMBNAIL_COLS) - rows != 0) {
 		rows++;
 	}
-	int height = THUMBNAIL_SIZE * rows + PADDING * rows + PADDING + PADDING_TOP;
+	int height = kJPImagePickerControllerThumbnailSizeHeight * rows + PADDING * rows + PADDING + PADDING_TOP;
 	
 	scrollView.contentSize = CGSizeMake(self.view.frame.size.width, height);
 	scrollView.clipsToBounds = YES;

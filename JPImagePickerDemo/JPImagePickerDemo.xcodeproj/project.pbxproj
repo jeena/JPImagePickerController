@@ -39,8 +39,6 @@
 		1D6058910D05DD3D006BFB54 /* JPImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerController.h; sourceTree = "<group>"; };
-		1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerControllerDataSource.h; sourceTree = "<group>"; };
-		1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerControllerDelegate.h; sourceTree = "<group>"; };
 		1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerDetailController.h; sourceTree = "<group>"; };
 		1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerOverviewController.h; sourceTree = "<group>"; };
 		1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageResizing.h; sourceTree = "<group>"; };
@@ -106,8 +104,6 @@
 		1FBADE3510AAFAE400BAB679 /* JPImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */,
-				1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */,
 				1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */,
 				1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */,
 				1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */,

@@ -8,7 +8,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JPImagePickerControllerDelegate.h"
 #import "JPImagePickerController.h"
 #import "JPImagePickerOverviewController.h"
 #import "UIImageResizing.h"

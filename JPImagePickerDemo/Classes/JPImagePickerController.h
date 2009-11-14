@@ -7,22 +7,123 @@
 //  Licence: MIT-Licence
 //
 
-
 #import <UIKit/UIKit.h>
-#import "JPImagePickerControllerDelegate.h"
-#import "JPImagePickerControllerDataSource.h"
 #import "JPImagePickerOverviewController.h"
 
-@protocol JPImagePickerControllerDelegate;
-@protocol JPImagePickerControllerDataSource;
-@class JPImagePickerOverviewController;
+@class JPImagePickerController, JPImagePickerOverviewController;
+
+/*!
+ @enum JPImagePickerControllerThumbnailSize
+ @abstract Specifies the thumbnail width and height.
+ @constant kJPImagePickerControllerThumbnailSizeWidth Thumbnail width 75 px.
+ @constant kJPImagePickerControllerThumbnailSizeHeight Thumbnail height 75 px.
+ */
+enum JPImagePickerControllerThumbnailSize {
+	kJPImagePickerControllerThumbnailSizeWidth = 75,
+	kJPImagePickerControllerThumbnailSizeHeight = 75
+};
+
+/*!
+ @enum JPImagePickerControllerPreviewImageSize
+ @abstract Specifies the preview image width and height.
+ @constant kJPImagePickerControllerPreviewImageSizeWidth Preview image width 320 px.
+ @constant kJPImagePickerControllerPreviewImageSizeHeight Preview image height 420 px.
+ */
+enum JPImagePickerControllerPreviewImageSize {
+	kJPImagePickerControllerPreviewImageSizeWidth = 320,
+	kJPImagePickerControllerPreviewImageSizeHeight = 420
+};
+
+#pragma mark -
+
+/*!
+ @protocol JPImagePickerControllerDelegate
+ @abstract Delegate protocol for the JPImagePickerController
+ @discussion You have to implement this delegate in order to
+ use the JPImagePickerController. This delegate is responsible
+ for dismissing the picker on cancel or finished picking.
+ */
+
+@protocol JPImagePickerControllerDelegate <NSObject>
+@optional
+
+/*!
+ @method imagePickerDidCancel:
+ @abstract Called when picker did cancel
+ @discussion This method is called when the user canceled picking.
+ The delegate is responsible to dismiss the picker here.
+ @param picker The picker which called this method.
+ */
+- (void)imagePickerDidCancel:(JPImagePickerController *)picker;
+
+/*!
+ @method imagePicker:didFinishPickingWithImageNumber:
+ @abstract Called when the user picked a image.
+ @discussion This method is called when the user die finish picking.
+ The delegate is responsible to dismiss the picker here.
+ @param picker The picker which called this method.
+ @param imageNumber The number which image the user picked.
+ */
+- (void)imagePicker:(JPImagePickerController *)picker didFinishPickingWithImageNumber:(NSInteger)imageNumber;
+
+@end
+
+
+
+/*!
+ @protocol JPImagePickerControllerDataSource
+ @abstract The data source protocol for JPImagePickerController
+ @discussion The JPImagePickerController asks this data source for all
+ data which it wants to display.
+ */
+
+@protocol JPImagePickerControllerDataSource <NSObject>
+@optional
+
+/*!
+ @method numberOfImagesInImagePicker:
+ @abstract Should return the number of images.
+ @discussion This method should return the number of images which the
+ picker should display.
+ @param picker The picker which called this method.
+ */
+- (NSInteger)numberOfImagesInImagePicker:(JPImagePickerController *)picker;
+
+/*!
+ @method imagePicker:thumbnailForImageNumber:
+ @abstract Asks the data source for a thumbnail to insert in a particular location
+ the image picker.
+ @discussion This method should return a UIImage thumbnail for a image at the
+ image number position. The image should have the width of kJPImagePickerControllerThumbnailWidth
+ and height of kJPImagePickerControllerThumbnailWidth. If it is not that size the
+ image picker will resize it so it fits.
+ @param picker A picker-object requesting the thumbnail.
+ @param imageNumber A image number locating the image in the picker.
+ */
+- (UIImage *)imagePicker:(JPImagePickerController *)picker thumbnailForImageNumber:(NSInteger)imageNumber;
+
+/*!
+ @method imagePicker:imageForImageNumber:
+ @abstract Asks the data source for a image to show in a preview.
+ @discussion This method should return a UIImage image for the preview at
+ the image number position. The image should have the width of kJPImagePickerControllerPreviewImageWidth
+ and height of kJPImagePickerControllerPreviewImageWidth. If it is not that size the
+ image picker will resize it so it fits.
+ @param picker A picker-object requesting the image.
+ @param imageNumber A image number locating the image in the picker.
+ */
+- (UIImage *)imagePicker:(JPImagePickerController *)picker imageForImageNumber:(NSInteger)imageNumber;
+
+@end
+
+#pragma mark -
 
 /*!
  @class JPImagePickerController
  @abstract A image picker view.
  @discussion A class which represents a image picker controller like apples UIImagePickerController
  but lets you use a external dataSource for the images.
- @updated 2009-11-11
+ @updated 2009-11-14
  */
 
 @interface JPImagePickerController : UIViewController {
@@ -92,4 +193,3 @@
 - (void)cancelPicking:(id)sender;
 
 @end
-

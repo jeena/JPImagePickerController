@@ -134,7 +134,6 @@
 		[imagePickerController release];	
 		
 	} else {
-		
 		if (chosenImage == -1) {
 			chosenImageView.image = [[UIImage imageNamed:@"noImageSelected.png"] scaleToSize:CGSizeMake(320, 480) onlyIfNeeded:YES];
 		} else {

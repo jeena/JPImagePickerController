@@ -7,8 +7,7 @@
 //  Licence: MIT-Licence
 //
 
-#import "JPImagePickerControllerDelegate.h"
-#import "JPImagePickerControllerDataSource.h"
+#import "JPImagePickerController.h"
 
 @interface RootViewController : UITableViewController <JPImagePickerControllerDelegate, JPImagePickerControllerDataSource> {
 	NSInteger chosenImage;

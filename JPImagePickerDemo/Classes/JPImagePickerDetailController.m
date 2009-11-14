@@ -14,9 +14,6 @@
 
 @synthesize previewImageView, overviewController, imageNumber;
 
-#define PREVIEW_IMAGE_WIDTH 320
-#define PREVIEW_IMAGE_HEIGHT 420
-
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController {
 	if (self = [super initWithNibName:@"JPImagePickerDetailController" bundle:nil]) {
         // Custom initialization
@@ -68,7 +65,11 @@
 
 - (void)prepareForImageNumber:(NSInteger)newImageNumber {
 	imageNumber = newImageNumber;
-	previewImageView.image = [[overviewController.imagePickerController.dataSource imagePicker:overviewController.imagePickerController imageForImageNumber:imageNumber] scaleToSize:CGSizeMake(PREVIEW_IMAGE_WIDTH, PREVIEW_IMAGE_HEIGHT) onlyIfNeeded:YES];
+	previewImageView.image = [[overviewController.imagePickerController.dataSource
+							   imagePicker:overviewController.imagePickerController
+							   imageForImageNumber:imageNumber]
+							  scaleToSize:CGSizeMake(kJPImagePickerControllerPreviewImageSizeHeight, kJPImagePickerControllerPreviewImageSizeHeight)
+							  onlyIfNeeded:YES];
 }
 
 - (IBAction)cancelPreview:(id)sender {

@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 999}}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 616}}";
 			sepNavSelRange = "{160, 0}";
 			sepNavVisRange = "{0, 467}";
 		};
 	};
 	1D3623250D0F684500981E51 /* JPImagePickerDemoAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 735}}";
-			sepNavSelRange = "{160, 0}";
-			sepNavVisRange = "{0, 851}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 690}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{0, 829}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* JPImagePickerDemo */ = {
@@ -20,65 +20,1129 @@
 			1FBADE2A10AAFAD300BAB679 /* JPImagePickerDemo */,
 		);
 	};
-	1F545A2810AC5076006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 131";
-		rLen = 0;
-		rLoc = 3807;
-		rType = 0;
-		vrLen = 1675;
-		vrLoc = 3290;
-	};
-	1F545A2910AC5076006D143F /* PBXTextBookmark */ = {
+	1F48C01C10AEE8FF008B9064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 1";
+		name = "JPImagePickerController.h: 95";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1444;
+		vrLoc = 1571;
+	};
+	1F48C02110AEEEB5008B9064 /* JPImagePickerControllerDataSource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JPImagePickerControllerDataSource.h;
+		path = /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerControllerDataSource.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 900}}";
+			sepNavSelRange = "{267, 1924}";
+			sepNavVisRange = "{451, 1740}";
+		};
+	};
+	1F48C02210AEEEB5008B9064 /* JPImagePickerControllerDelegate.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JPImagePickerControllerDelegate.h;
+		path = /Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/Classes/JPImagePickerControllerDelegate.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 660}}";
+			sepNavSelRange = "{203, 0}";
+			sepNavVisRange = "{3, 753}";
+		};
+	};
+	1F48C02510AEEEBF008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 95";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1444;
+		vrLoc = 1571;
+	};
+	1F48C02610AEEEBF008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 0;
+	};
+	1F48C03710AEEF80008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'THUMBNAIL_SIZE' undeclared (first use in this function)";
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 69;
+		rType = 1;
+	};
+	1F48C03810AEEF80008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 71";
+		rLen = 0;
+		rLoc = 2569;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 2024;
+	};
+	1F48C03910AEEF81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 0;
+	};
+	1F48C03A10AEEF81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
+		name = "JPImagePickerDetailController.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	1F48C03B10AEEF81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 59";
+		rLen = 0;
+		rLoc = 1452;
+		rType = 0;
+		vrLen = 1599;
+		vrLoc = 1201;
+	};
+	1F48C03C10AEEF81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 26";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 0;
+	};
+	1F48C03D10AEEF81008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'THUMBNAIL_SIZE' undeclared (first use in this function)";
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 48;
+		rType = 1;
+	};
+	1F48C03E10AEEF81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 50";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 1644;
+		vrLoc = 701;
+	};
+	1F48C03F10AEEFF5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 50";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 1202;
+	};
+	1F48C04010AEEFF5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 24";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 0;
+	};
+	1F48C04110AEEFF5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 16";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 0;
+	};
+	1F48C04210AEEFF5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 38";
+		rLen = 0;
+		rLoc = 4858;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 320;
+	};
+	1F48C04310AEEFF5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 37";
+		rLen = 0;
+		rLoc = 4858;
+		rType = 0;
+		vrLen = 1273;
+		vrLoc = 320;
+	};
+	1F48C04610AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C04710AF031D008B9064 /* UIViewController.h */;
+		name = "UIViewController.h: 31";
+		rLen = 74;
+		rLoc = 910;
+		rType = 0;
+		vrLen = 1477;
+		vrLoc = 196;
+	};
+	1F48C04710AF031D008B9064 /* UIViewController.h */ = {
+		isa = PBXFileReference;
+		name = UIViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C04810AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 339;
+	};
+	1F48C04910AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C04A10AF031D008B9064 /* UIApplication.h */;
+		name = "UIApplication.h: 45";
+		rLen = 82;
+		rLoc = 1917;
+		rType = 0;
+		vrLen = 2539;
+		vrLoc = 5096;
+	};
+	1F48C04A10AF031D008B9064 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C04B10AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 43";
+		rLen = 0;
+		rLoc = 4858;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 618;
+	};
+	1F48C04C10AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 50";
+		rLen = 0;
+		rLoc = 1576;
+		rType = 0;
+		vrLen = 1650;
+		vrLoc = 1177;
+	};
+	1F48C04D10AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
+		name = "JPImagePickerDetailController.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	1F48C04E10AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 16";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 1174;
+		vrLoc = 0;
+	};
+	1F48C04F10AF031D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 71";
+		rLen = 0;
+		rLoc = 2151;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 1745;
+	};
+	1F48C05010AF0376008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 71";
+		rLen = 0;
+		rLoc = 2151;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 1745;
+	};
+	1F48C05110AF0376008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02110AEEEB5008B9064 /* JPImagePickerControllerDataSource.h */;
+		name = "JPImagePickerControllerDataSource.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1279;
+		vrLen = 1234;
 		vrLoc = 0;
 	};
-	1F545A2A10AC5076006D143F /* PBXTextBookmark */ = {
+	1F48C05210AF0376008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	1F48C05310AF0376008B9064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 1";
+		name = "JPImagePickerController.h: 50";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 4858;
 		rType = 0;
-		vrLen = 1279;
+		vrLen = 1376;
+		vrLoc = 618;
+	};
+	1F48C05C10AF050A008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'THUMBNAIL_HEIGHT' undeclared (first use in this function)";
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 69;
+		rType = 1;
+	};
+	1F48C05D10AF050A008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 71";
+		rLen = 0;
+		rLoc = 2569;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 1246;
+	};
+	1F48C06210AF0576008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 18";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 684;
+	};
+	1F48C06910AF058A008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 18";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 684;
+	};
+	1F48C06A10AF0746008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 18";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 684;
+	};
+	1F48C07110AF0964008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 18";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 684;
+	};
+	1F48C07210AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 24";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 1121;
 		vrLoc = 0;
 	};
-	1F545A3410AC54C4006D143F /* PBXTextBookmark */ = {
+	1F48C07310AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 70";
+		rLen = 0;
+		rLoc = 2512;
+		rType = 0;
+		vrLen = 1707;
+		vrLoc = 1187;
+	};
+	1F48C07410AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */;
+		name = "JPImagePickerDemoAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	1F48C07510AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02110AEEEB5008B9064 /* JPImagePickerControllerDataSource.h */;
+		name = "JPImagePickerControllerDataSource.h: 23";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 1525;
+		vrLoc = 266;
+	};
+	1F48C07610AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	1F48C07710AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C07810AF0974008B9064 /* NSError.h */;
+		name = "NSError.h: 37";
+		rLen = 54;
+		rLoc = 2230;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 0;
+	};
+	1F48C07810AF0974008B9064 /* NSError.h */ = {
+		isa = PBXFileReference;
+		name = NSError.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C07910AF0974008B9064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 27";
-		rLen = 0;
-		rLoc = 699;
+		name = "JPImagePickerController.h: 52";
+		rLen = 6;
+		rLoc = 4524;
 		rType = 0;
-		vrLen = 1478;
-		vrLoc = 0;
+		vrLen = 1246;
+		vrLoc = 798;
 	};
-	1F545A3510AC5527006D143F /* PBXTextBookmark */ = {
+	1F48C07A10AF0974008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 51";
+		rLen = 0;
+		rLoc = 4524;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 409;
+	};
+	1F48C07D10AF098D008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'kJPImagePickerControllerThumbnailSizeWidth' undeclared (first use in this function)";
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 48;
+		rType = 1;
+	};
+	1F48C07E10AF098D008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 49";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 1162;
+	};
+	1F48C08110AF09DF008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 49";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 3849;
+	};
+	1F48C08610AF0B6C008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 49";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 3849;
+	};
+	1F48C08F10AF0DE3008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 49";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 3760;
+	};
+	1F48C09010AF0DE3008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before ';' token";
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 70;
+		rType = 1;
+	};
+	1F48C09110AF0DE3008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 71";
+		rLen = 0;
+		rLoc = 2103;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 1748;
+	};
+	1F48C09410AF0F5A008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 49";
+		rLen = 0;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 1642;
+		vrLoc = 330;
+	};
+	1F48C09510AF0F5A008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 71";
+		rLen = 0;
+		rLoc = 2058;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 1745;
+	};
+	1F48C09610AF0F5A008B9064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 26";
 		rLen = 0;
-		rLoc = 697;
+		rLoc = 4524;
 		rType = 0;
-		vrLen = 1477;
-		vrLoc = 0;
+		vrLen = 1239;
+		vrLoc = 230;
 	};
-	1F545A3610AC5564006D143F /* PBXTextBookmark */ = {
+	1F48C09710AF0F5A008B9064 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 22";
+		name = "JPImagePickerController.h: 38";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 4524;
 		rType = 0;
-		vrLen = 1487;
+		vrLen = 1116;
+		vrLoc = 98;
+	};
+	1F48C09A10AF0FA6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 43";
+		rLen = 0;
+		rLoc = 4524;
+		rType = 0;
+		vrLen = 1191;
+		vrLoc = 518;
+	};
+	1F48C09B10AF1056008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 32";
+		rLen = 0;
+		rLoc = 4524;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 518;
+	};
+	1F48C09C10AF10A5008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 40";
+		rLen = 0;
+		rLoc = 4524;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 518;
+	};
+	1F48C09D10AF10D8008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 56";
+		rLen = 0;
+		rLoc = 4858;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 1040;
+	};
+	1F48C09E10AF115A008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 37";
+		rLen = 0;
+		rLoc = 4858;
+		rType = 0;
+		vrLen = 1479;
+		vrLoc = 756;
+	};
+	1F48C0A110AF11A9008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 24";
+		rLen = 0;
+		rLoc = 4518;
+		rType = 0;
+		vrLen = 1341;
 		vrLoc = 0;
+	};
+	1F48C0A210AF1345008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02110AEEEB5008B9064 /* JPImagePickerControllerDataSource.h */;
+		name = "JPImagePickerControllerDataSource.h: 52";
+		rLen = 0;
+		rLoc = 1881;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 0;
+	};
+	1F48C0A310AF1345008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02210AEEEB5008B9064 /* JPImagePickerControllerDelegate.h */;
+		name = "JPImagePickerControllerDelegate.h: 15";
+		rLen = 1124;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 1292;
+		vrLoc = 106;
+	};
+	1F48C0A410AF1345008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 24";
+		rLen = 0;
+		rLoc = 4518;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 3;
+	};
+	1F48C0A510AF1345008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 149";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 3747;
+	};
+	1F48C0A810AF1380008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 196";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1707;
+		vrLoc = 5212;
+	};
+	1F48C0A910AF1380008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02110AEEEB5008B9064 /* JPImagePickerControllerDataSource.h */;
+		name = "JPImagePickerControllerDataSource.h: 16";
+		rLen = 1924;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 1740;
+		vrLoc = 451;
+	};
+	1F48C0AA10AF1380008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C02210AEEEB5008B9064 /* JPImagePickerControllerDelegate.h */;
+		name = "JPImagePickerControllerDelegate.h: 10";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 3;
+	};
+	1F48C0AD10AF141E008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 71";
+		rLen = 0;
+		rLoc = 2103;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 1982;
+	};
+	1F48C0AE10AF141E008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'JPImagePickerController'";
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	1F48C0AF10AF141E008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 20";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 194;
+	};
+	1F48C0B710AF1539008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'JPImagePickerController'";
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	1F48C0B810AF1539008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 15";
+		rLen = 0;
+		rLoc = 301;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	1F48C0B910AF157E008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 15";
+		rLen = 0;
+		rLoc = 301;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	1F48C0F810AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */;
+		name = "JPImagePickerDemoAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	1F48C0F910AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 10";
+		rLen = 35;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	1F48C0FA10AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 13";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 0;
+	};
+	1F48C0FB10AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	1F48C0FC10AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 136";
+		rLen = 0;
+		rLoc = 3954;
+		rType = 0;
+		vrLen = 1604;
+		vrLoc = 3045;
+	};
+	1F48C0FD10AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C0FE10AF15E6008B9064 /* UIImagePickerController.h */;
+		name = "UIImagePickerController.h: 36";
+		rLen = 92;
+		rLoc = 1152;
+		rType = 0;
+		vrLen = 1503;
+		vrLoc = 0;
+	};
+	1F48C0FE10AF15E6008B9064 /* UIImagePickerController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIImagePickerController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1830}}";
+			sepNavSelRange = "{1152, 18}";
+			sepNavVisRange = "{229, 1840}";
+		};
+	};
+	1F48C0FF10AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 17";
+		rLen = 0;
+		rLoc = 4273;
+		rType = 0;
+		vrLen = 1276;
+		vrLoc = 0;
+	};
+	1F48C10010AF15E6008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 2";
+		rLen = 0;
+		rLoc = 3;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 0;
+	};
+	1F48C10910AF18F4008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 26";
+		rLen = 0;
+		rLoc = 702;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 408;
+	};
+	1F48C10A10AF18F4008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'JPImagePickerController'";
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	1F48C10B10AF18F4008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 15";
+		rLen = 0;
+		rLoc = 301;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 169;
+	};
+	1F48C11C10AF2F81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 17";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 69;
+	};
+	1F48C11D10AF2F81008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'imagePickerController' in something not a structure or union";
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 67;
+		rType = 1;
+	};
+	1F48C11E10AF2F81008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 68";
+		rLen = 0;
+		rLoc = 1839;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 1535;
+	};
+	1F48C11F10AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C12010AF2F84008B9064 /* UIKitDefines.h */;
+		name = "UIKitDefines.h: 17";
+		rLen = 66;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 0;
+	};
+	1F48C12010AF2F84008B9064 /* UIKitDefines.h */ = {
+		isa = PBXFileReference;
+		name = UIKitDefines.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitDefines.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C12110AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C0FE10AF15E6008B9064 /* UIImagePickerController.h */;
+		name = "UIImagePickerController.h: 36";
+		rLen = 18;
+		rLoc = 1152;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 229;
+	};
+	1F48C12210AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 136";
+		rLen = 0;
+		rLoc = 3954;
+		rType = 0;
+		vrLen = 1604;
+		vrLoc = 3045;
+	};
+	1F48C12310AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	1F48C12410AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JPImagePickerDemoAppDelegate.m */;
+		name = "JPImagePickerDemoAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	1F48C12510AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */;
+		name = "JPImagePickerDemoAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	1F48C12610AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 12";
+		rLen = 21;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	1F48C12710AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C12810AF2F84008B9064 /* UITableViewController.h */;
+		name = "UITableViewController.h: 17";
+		rLen = 19;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	1F48C12810AF2F84008B9064 /* UITableViewController.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewController.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C12910AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F48C12A10AF2F84008B9064 /* UITableView.h */;
+		name = "UITableView.h: 227";
+		rLen = 10;
+		rLoc = 10727;
+		rType = 0;
+		vrLen = 1543;
+		vrLoc = 0;
+	};
+	1F48C12A10AF2F84008B9064 /* UITableView.h */ = {
+		isa = PBXFileReference;
+		name = UITableView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
+		sourceTree = "<absolute>";
+	};
+	1F48C12B10AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
+		name = "JPImagePickerDetailController.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	1F48C12C10AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 124";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 3364;
+	};
+	1F48C12D10AF2F84008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 111";
+		rLen = 0;
+		rLoc = 6831;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 3449;
+	};
+	1F48C13E10AF32A9008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 19";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 0;
+	};
+	1F48C13F10AF32A9008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 32";
+		rLen = 13;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	1F48C14010AF32A9008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 14";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 1468;
+		vrLoc = 309;
+	};
+	1F48C14110AF32A9008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 29";
+		rLen = 0;
+		rLoc = 898;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 3;
+	};
+	1F48C14210AF32AC008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 68";
+		rLen = 0;
+		rLoc = 1839;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 1535;
+	};
+	1F48C14310AF32AC008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 10";
+		rLen = 36;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	1F48C14410AF32AC008B9064 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'JPImagePickerController'";
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	1F48C14510AF32AC008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 15";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 141;
 	};
 	1F545A7810AC573F006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -92,6 +1156,7 @@
 	};
 	1F545A7910AC573F006D143F /* UIAccelerometer.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIAccelerometer.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h;
 		sourceTree = "<absolute>";
@@ -108,6 +1173,7 @@
 	};
 	1F545A7B10AC573F006D143F /* UIAccessibility.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIAccessibility.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h;
 		sourceTree = "<absolute>";
@@ -124,6 +1190,7 @@
 	};
 	1F545A7D10AC573F006D143F /* UIBarItem.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIBarItem.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarItem.h;
 		sourceTree = "<absolute>";
@@ -140,6 +1207,7 @@
 	};
 	1F545A7F10AC573F006D143F /* UIButton.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIButton.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
 		sourceTree = "<absolute>";
@@ -156,129 +1224,10 @@
 	};
 	1F545A8110AC573F006D143F /* UIImagePickerController.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIImagePickerController.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h;
 		sourceTree = "<absolute>";
-	};
-	1F545A8210AC573F006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 22";
-		rLen = 0;
-		rLoc = 532;
-		rType = 0;
-		vrLen = 1487;
-		vrLoc = 0;
-	};
-	1F545A8310AC573F006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 23";
-		rLen = 0;
-		rLoc = 519;
-		rType = 0;
-		vrLen = 1491;
-		vrLoc = 33;
-	};
-	1F545A8410AC5768006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 23";
-		rLen = 0;
-		rLoc = 521;
-		rType = 0;
-		vrLen = 1487;
-		vrLoc = 3;
-	};
-	1F545A8510AC57E0006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 43";
-		rLen = 0;
-		rLoc = 1483;
-		rType = 0;
-		vrLen = 1369;
-		vrLoc = 64;
-	};
-	1F545A8610AC5872006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 39";
-		rLen = 0;
-		rLoc = 1126;
-		rType = 0;
-		vrLen = 1425;
-		vrLoc = 321;
-	};
-	1F545A8710AC5CF0006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 131";
-		rLen = 0;
-		rLoc = 3807;
-		rType = 0;
-		vrLen = 1235;
-		vrLoc = 5565;
-	};
-	1F545A8810AC5CF0006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
-		name = "JPImagePickerController.m: 55";
-		rLen = 0;
-		rLoc = 1875;
-		rType = 0;
-		vrLen = 1496;
-		vrLoc = 704;
-	};
-	1F545A8910AC5CF0006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 68";
-		rLen = 0;
-		rLoc = 2245;
-		rType = 0;
-		vrLen = 1511;
-		vrLoc = 1005;
-	};
-	1F545A8A10AC5CF0006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 84";
-		rLen = 0;
-		rLoc = 2828;
-		rType = 0;
-		vrLen = 1616;
-		vrLoc = 1217;
-	};
-	1F545A8B10AC5D5B006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 90";
-		rLen = 0;
-		rLoc = 2969;
-		rType = 0;
-		vrLen = 1521;
-		vrLoc = 1488;
-	};
-	1F545A9210AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
-		name = "JPImagePickerController.m: 55";
-		rLen = 0;
-		rLoc = 1875;
-		rType = 0;
-		vrLen = 1045;
-		vrLoc = 2016;
-	};
-	1F545A9310AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
-		name = "JPImagePickerOverviewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 953;
-		vrLoc = 0;
 	};
 	1F545A9410AEE784006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -292,36 +1241,17 @@
 	};
 	1F545A9510AEE784006D143F /* UITableView.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UITableView.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
 		sourceTree = "<absolute>";
-	};
-	1F545A9610AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
-		name = "JPImagePickerOverviewController.m: 101";
-		rLen = 0;
-		rLoc = 3256;
-		rType = 0;
-		vrLen = 891;
-		vrLoc = 3010;
-	};
-	1F545A9710AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
-		name = "JPImagePickerDetailController.h: 12";
-		rLen = 0;
-		rLoc = 236;
-		rType = 0;
-		vrLen = 1002;
-		vrLoc = 139;
 	};
 	1F545A9810AEE784006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
 		name = "JPImagePickerDetailController.m: 59";
 		rLen = 0;
-		rLoc = 1518;
+		rLoc = 1452;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 1358;
@@ -336,57 +1266,37 @@
 		vrLen = 777;
 		vrLoc = 1355;
 	};
-	1F545A9A10AEE784006D143F /* PBXTextBookmark */ = {
+	1F545AA310AEE8D4006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
-		name = "RootViewController.h: 10";
+		name = "RootViewController.h: 11";
 		rLen = 0;
-		rLoc = 179;
+		rLoc = 187;
 		rType = 0;
-		vrLen = 640;
+		vrLen = 586;
 		vrLoc = 0;
 	};
-	1F545A9B10AEE784006D143F /* PBXTextBookmark */ = {
+	1F545AA410AEE8D4006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
-		name = "JPImagePickerControllerDelegate.h: 13";
-		rLen = 1157;
-		rLoc = 241;
-		rType = 0;
-		vrLen = 1357;
-		vrLoc = 41;
-	};
-	1F545A9C10AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */;
-		name = "JPImagePickerControllerDataSource.h: 13";
-		rLen = 1558;
-		rLoc = 233;
-		rType = 0;
-		vrLen = 1526;
-		vrLoc = 265;
-	};
-	1F545A9D10AEE784006D143F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 134";
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 55";
 		rLen = 0;
-		rLoc = 3015;
+		rLoc = 1875;
 		rType = 0;
-		vrLen = 1208;
-		vrLoc = 2970;
+		vrLen = 1082;
+		vrLoc = 1979;
 	};
-	1F545A9E10AEE784006D143F /* PBXTextBookmark */ = {
+	1F545AA510AEE8D4006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 95";
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 101";
 		rLen = 0;
-		rLoc = 3014;
+		rLoc = 3435;
 		rType = 0;
-		vrLen = 1439;
-		vrLoc = 1576;
+		vrLen = 1295;
+		vrLoc = 2717;
 	};
-	1FB6FC3010AB0BD400232E4B /* PBXTextBookmark */ = {
+	1F545AA610AEE8D4006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */;
 		name = "UIImageResizing.h: 1";
@@ -395,6 +1305,66 @@
 		rType = 0;
 		vrLen = 835;
 		vrLoc = 0;
+	};
+	1F545AA710AEE8D4006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 20";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 0;
+	};
+	1F545AA810AEE8D4006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */;
+		name = "JPImagePickerDemoAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 0;
+	};
+	1F545AA910AEE8D4006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* JPImagePickerDemoAppDelegate.m */;
+		name = "JPImagePickerDemoAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 0;
+	};
+	1F545AAA10AEE8D4006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
+		name = "JPImagePickerDetailController.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	1F545AAD10AEE8EE006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 95";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1439;
+		vrLoc = 1576;
+	};
+	1F545AAE10AEE8EE006D143F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 95";
+		rLen = 0;
+		rLoc = 6837;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 1572;
 	};
 	1FB6FC3110AB0BD400232E4B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -406,36 +1376,6 @@
 		vrLen = 1848;
 		vrLoc = 0;
 	};
-	1FB6FC3210AB0BD400232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
-		name = "RootViewController.h: 6";
-		rLen = 29;
-		rLoc = 121;
-		rType = 0;
-		vrLen = 640;
-		vrLoc = 0;
-	};
-	1FB6FC3410AB0BD400232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */;
-		name = "JPImagePickerDemoAppDelegate.h: 9";
-		rLen = 0;
-		rLoc = 160;
-		rType = 0;
-		vrLen = 467;
-		vrLoc = 0;
-	};
-	1FB6FC3510AB0BD400232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* JPImagePickerDemoAppDelegate.m */;
-		name = "JPImagePickerDemoAppDelegate.m: 9";
-		rLen = 0;
-		rLoc = 160;
-		rType = 0;
-		vrLen = 851;
-		vrLoc = 0;
-	};
 	1FB6FC3F10AB158D00232E4B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
@@ -445,53 +1385,6 @@
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 0;
-	};
-	1FB6FC4010AB158D00232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */;
-		name = "JPImagePickerControllerDelegate.h: 18";
-		rLen = 0;
-		rLoc = 1352;
-		rType = 0;
-		vrLen = 498;
-		vrLoc = 0;
-	};
-	1FB6FC4110AB158D00232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */;
-		name = "JPImagePickerControllerDataSource.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 603;
-		vrLoc = 0;
-	};
-	1FB6FC7110AB649100232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
-		name = "JPImagePickerDetailController.m: 67";
-		rLen = 0;
-		rLoc = 1814;
-		rType = 0;
-		vrLen = 1722;
-		vrLoc = 951;
-	};
-	1FB6FC7210AB649100232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		rLen = 0;
-		rLoc = 3807;
-		rType = 0;
-	};
-	1FB6FC7410AB692B00232E4B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 131";
-		rLen = 0;
-		rLoc = 3807;
-		rType = 0;
-		vrLen = 1628;
-		vrLoc = 3017;
 	};
 	1FBADE2A10AAFAD300BAB679 /* JPImagePickerDemo */ = {
 		isa = PBXExecutable;
@@ -537,65 +1430,51 @@
 	};
 	1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 1440}}";
-			sepNavSelRange = "{3014, 0}";
-			sepNavVisRange = "{1576, 1439}";
-		};
-	};
-	1FBADE3E10AAFB4600BAB679 /* JPImagePickerControllerDataSource.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 840}}";
-			sepNavSelRange = "{233, 1558}";
-			sepNavVisRange = "{265, 1526}";
-		};
-	};
-	1FBADE3F10AAFB4600BAB679 /* JPImagePickerControllerDelegate.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 675}}";
-			sepNavSelRange = "{241, 1157}";
-			sepNavVisRange = "{41, 1357}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 2910}}";
+			sepNavSelRange = "{898, 0}";
+			sepNavVisRange = "{3, 1331}";
 		};
 	};
 	1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 555}}";
-			sepNavSelRange = "{236, 0}";
-			sepNavVisRange = "{139, 1002}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 616}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 1097}";
 		};
 	};
 	1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 585}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 953}";
+			sepNavIntBoundsRect = "{{0, 0}, {797, 540}}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{141, 592}";
 		};
 	};
 	1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {994, 999}}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 641}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 835}";
 		};
 	};
 	1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1560}}";
-			sepNavSelRange = "{1875, 0}";
-			sepNavVisRange = "{2016, 1045}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1455}}";
+			sepNavSelRange = "{162, 36}";
+			sepNavVisRange = "{0, 588}";
 		};
 	};
 	1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1783, 1455}}";
-			sepNavSelRange = "{1518, 0}";
-			sepNavVisRange = "{1358, 1312}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1530}}";
+			sepNavSelRange = "{1839, 0}";
+			sepNavVisRange = "{1535, 840}";
 		};
 	};
 	1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 1860}}";
-			sepNavSelRange = "{3256, 0}";
-			sepNavVisRange = "{3010, 891}";
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 1980}}";
+			sepNavSelRange = "{1498, 0}";
+			sepNavVisRange = "{3849, 347}";
 		};
 	};
 	1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */ = {
@@ -605,52 +1484,22 @@
 			sepNavVisRange = "{0, 1848}";
 		};
 	};
-	1FBADE5110AAFBE900BAB679 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
-		name = "JPImagePickerController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	1FBADE5310AAFBE900BAB679 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
-		name = "JPImagePickerOverviewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 464;
-		vrLoc = 0;
-	};
-	1FBADE5410AAFBE900BAB679 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
-		name = "JPImagePickerDetailController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 458;
-		vrLoc = 0;
-	};
 	1FBADE7210AAFCF300BAB679 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 1FBADE6210AAFC5D00BAB679 /* i3.png */;
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 439}}";
-			sepNavSelRange = "{179, 0}";
-			sepNavVisRange = "{0, 640}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 616}}";
+			sepNavSelRange = "{220, 21}";
+			sepNavVisRange = "{0, 586}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 3645}}";
-			sepNavSelRange = "{1883, 9}";
-			sepNavVisRange = "{1355, 777}";
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 3300}}";
+			sepNavSelRange = "{3954, 0}";
+			sepNavVisRange = "{3045, 1604}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -740,57 +1589,136 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 279727411;
-			PBXWorkspaceStateSaveDate = 279727411;
+			PBXPerProjectTemplateStateSaveDate = 279898363;
+			PBXWorkspaceStateSaveDate = 279898363;
 		};
 		perUserProjectItems = {
-			1F545A2810AC5076006D143F /* PBXTextBookmark */ = 1F545A2810AC5076006D143F /* PBXTextBookmark */;
-			1F545A2910AC5076006D143F /* PBXTextBookmark */ = 1F545A2910AC5076006D143F /* PBXTextBookmark */;
-			1F545A2A10AC5076006D143F /* PBXTextBookmark */ = 1F545A2A10AC5076006D143F /* PBXTextBookmark */;
-			1F545A3410AC54C4006D143F /* PBXTextBookmark */ = 1F545A3410AC54C4006D143F /* PBXTextBookmark */;
-			1F545A3510AC5527006D143F /* PBXTextBookmark */ = 1F545A3510AC5527006D143F /* PBXTextBookmark */;
-			1F545A3610AC5564006D143F /* PBXTextBookmark */ = 1F545A3610AC5564006D143F /* PBXTextBookmark */;
-			1F545A7810AC573F006D143F /* PBXTextBookmark */ = 1F545A7810AC573F006D143F /* PBXTextBookmark */;
-			1F545A7A10AC573F006D143F /* PBXTextBookmark */ = 1F545A7A10AC573F006D143F /* PBXTextBookmark */;
-			1F545A7C10AC573F006D143F /* PBXTextBookmark */ = 1F545A7C10AC573F006D143F /* PBXTextBookmark */;
-			1F545A7E10AC573F006D143F /* PBXTextBookmark */ = 1F545A7E10AC573F006D143F /* PBXTextBookmark */;
-			1F545A8010AC573F006D143F /* PBXTextBookmark */ = 1F545A8010AC573F006D143F /* PBXTextBookmark */;
-			1F545A8210AC573F006D143F /* PBXTextBookmark */ = 1F545A8210AC573F006D143F /* PBXTextBookmark */;
-			1F545A8310AC573F006D143F /* PBXTextBookmark */ = 1F545A8310AC573F006D143F /* PBXTextBookmark */;
-			1F545A8410AC5768006D143F /* PBXTextBookmark */ = 1F545A8410AC5768006D143F /* PBXTextBookmark */;
-			1F545A8510AC57E0006D143F /* PBXTextBookmark */ = 1F545A8510AC57E0006D143F /* PBXTextBookmark */;
-			1F545A8610AC5872006D143F /* PBXTextBookmark */ = 1F545A8610AC5872006D143F /* PBXTextBookmark */;
-			1F545A8710AC5CF0006D143F /* PBXTextBookmark */ = 1F545A8710AC5CF0006D143F /* PBXTextBookmark */;
-			1F545A8810AC5CF0006D143F /* PBXTextBookmark */ = 1F545A8810AC5CF0006D143F /* PBXTextBookmark */;
-			1F545A8910AC5CF0006D143F /* PBXTextBookmark */ = 1F545A8910AC5CF0006D143F /* PBXTextBookmark */;
-			1F545A8A10AC5CF0006D143F /* PBXTextBookmark */ = 1F545A8A10AC5CF0006D143F /* PBXTextBookmark */;
-			1F545A8B10AC5D5B006D143F /* PBXTextBookmark */ = 1F545A8B10AC5D5B006D143F /* PBXTextBookmark */;
-			1F545A9210AEE784006D143F /* PBXTextBookmark */ = 1F545A9210AEE784006D143F /* PBXTextBookmark */;
-			1F545A9310AEE784006D143F /* PBXTextBookmark */ = 1F545A9310AEE784006D143F /* PBXTextBookmark */;
-			1F545A9410AEE784006D143F /* PBXTextBookmark */ = 1F545A9410AEE784006D143F /* PBXTextBookmark */;
-			1F545A9610AEE784006D143F /* PBXTextBookmark */ = 1F545A9610AEE784006D143F /* PBXTextBookmark */;
-			1F545A9710AEE784006D143F /* PBXTextBookmark */ = 1F545A9710AEE784006D143F /* PBXTextBookmark */;
-			1F545A9810AEE784006D143F /* PBXTextBookmark */ = 1F545A9810AEE784006D143F /* PBXTextBookmark */;
-			1F545A9910AEE784006D143F /* PBXTextBookmark */ = 1F545A9910AEE784006D143F /* PBXTextBookmark */;
-			1F545A9A10AEE784006D143F /* PBXTextBookmark */ = 1F545A9A10AEE784006D143F /* PBXTextBookmark */;
-			1F545A9B10AEE784006D143F /* PBXTextBookmark */ = 1F545A9B10AEE784006D143F /* PBXTextBookmark */;
-			1F545A9C10AEE784006D143F /* PBXTextBookmark */ = 1F545A9C10AEE784006D143F /* PBXTextBookmark */;
-			1F545A9D10AEE784006D143F /* PBXTextBookmark */ = 1F545A9D10AEE784006D143F /* PBXTextBookmark */;
-			1F545A9E10AEE784006D143F /* PBXTextBookmark */ = 1F545A9E10AEE784006D143F /* PBXTextBookmark */;
-			1FB6FC3010AB0BD400232E4B = 1FB6FC3010AB0BD400232E4B /* PBXTextBookmark */;
+			1F48C01C10AEE8FF008B9064 /* PBXTextBookmark */ = 1F48C01C10AEE8FF008B9064 /* PBXTextBookmark */;
+			1F48C02510AEEEBF008B9064 /* PBXTextBookmark */ = 1F48C02510AEEEBF008B9064 /* PBXTextBookmark */;
+			1F48C02610AEEEBF008B9064 /* PBXTextBookmark */ = 1F48C02610AEEEBF008B9064 /* PBXTextBookmark */;
+			1F48C03710AEEF80008B9064 /* XCBuildMessageTextBookmark */ = 1F48C03710AEEF80008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C03810AEEF80008B9064 /* PBXTextBookmark */ = 1F48C03810AEEF80008B9064 /* PBXTextBookmark */;
+			1F48C03910AEEF81008B9064 /* PBXTextBookmark */ = 1F48C03910AEEF81008B9064 /* PBXTextBookmark */;
+			1F48C03A10AEEF81008B9064 /* PBXTextBookmark */ = 1F48C03A10AEEF81008B9064 /* PBXTextBookmark */;
+			1F48C03B10AEEF81008B9064 /* PBXTextBookmark */ = 1F48C03B10AEEF81008B9064 /* PBXTextBookmark */;
+			1F48C03C10AEEF81008B9064 /* PBXTextBookmark */ = 1F48C03C10AEEF81008B9064 /* PBXTextBookmark */;
+			1F48C03D10AEEF81008B9064 /* XCBuildMessageTextBookmark */ = 1F48C03D10AEEF81008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C03E10AEEF81008B9064 /* PBXTextBookmark */ = 1F48C03E10AEEF81008B9064 /* PBXTextBookmark */;
+			1F48C03F10AEEFF5008B9064 /* PBXTextBookmark */ = 1F48C03F10AEEFF5008B9064 /* PBXTextBookmark */;
+			1F48C04010AEEFF5008B9064 /* PBXTextBookmark */ = 1F48C04010AEEFF5008B9064 /* PBXTextBookmark */;
+			1F48C04110AEEFF5008B9064 /* PBXTextBookmark */ = 1F48C04110AEEFF5008B9064 /* PBXTextBookmark */;
+			1F48C04210AEEFF5008B9064 /* PBXTextBookmark */ = 1F48C04210AEEFF5008B9064 /* PBXTextBookmark */;
+			1F48C04310AEEFF5008B9064 /* PBXTextBookmark */ = 1F48C04310AEEFF5008B9064 /* PBXTextBookmark */;
+			1F48C04610AF031D008B9064 /* PBXTextBookmark */ = 1F48C04610AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04810AF031D008B9064 /* PBXTextBookmark */ = 1F48C04810AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04910AF031D008B9064 /* PBXTextBookmark */ = 1F48C04910AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04B10AF031D008B9064 /* PBXTextBookmark */ = 1F48C04B10AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04C10AF031D008B9064 /* PBXTextBookmark */ = 1F48C04C10AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04D10AF031D008B9064 /* PBXTextBookmark */ = 1F48C04D10AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04E10AF031D008B9064 /* PBXTextBookmark */ = 1F48C04E10AF031D008B9064 /* PBXTextBookmark */;
+			1F48C04F10AF031D008B9064 /* PBXTextBookmark */ = 1F48C04F10AF031D008B9064 /* PBXTextBookmark */;
+			1F48C05010AF0376008B9064 /* PBXTextBookmark */ = 1F48C05010AF0376008B9064 /* PBXTextBookmark */;
+			1F48C05110AF0376008B9064 /* PBXTextBookmark */ = 1F48C05110AF0376008B9064 /* PBXTextBookmark */;
+			1F48C05210AF0376008B9064 /* PBXTextBookmark */ = 1F48C05210AF0376008B9064 /* PBXTextBookmark */;
+			1F48C05310AF0376008B9064 /* PBXTextBookmark */ = 1F48C05310AF0376008B9064 /* PBXTextBookmark */;
+			1F48C05C10AF050A008B9064 /* XCBuildMessageTextBookmark */ = 1F48C05C10AF050A008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C05D10AF050A008B9064 /* PBXTextBookmark */ = 1F48C05D10AF050A008B9064 /* PBXTextBookmark */;
+			1F48C06210AF0576008B9064 /* PBXTextBookmark */ = 1F48C06210AF0576008B9064 /* PBXTextBookmark */;
+			1F48C06910AF058A008B9064 /* PBXTextBookmark */ = 1F48C06910AF058A008B9064 /* PBXTextBookmark */;
+			1F48C06A10AF0746008B9064 /* PBXTextBookmark */ = 1F48C06A10AF0746008B9064 /* PBXTextBookmark */;
+			1F48C07110AF0964008B9064 /* PBXTextBookmark */ = 1F48C07110AF0964008B9064 /* PBXTextBookmark */;
+			1F48C07210AF0974008B9064 /* PBXTextBookmark */ = 1F48C07210AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07310AF0974008B9064 /* PBXTextBookmark */ = 1F48C07310AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07410AF0974008B9064 /* PBXTextBookmark */ = 1F48C07410AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07510AF0974008B9064 /* PBXTextBookmark */ = 1F48C07510AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07610AF0974008B9064 /* PBXTextBookmark */ = 1F48C07610AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07710AF0974008B9064 /* PBXTextBookmark */ = 1F48C07710AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07910AF0974008B9064 /* PBXTextBookmark */ = 1F48C07910AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07A10AF0974008B9064 /* PBXTextBookmark */ = 1F48C07A10AF0974008B9064 /* PBXTextBookmark */;
+			1F48C07D10AF098D008B9064 /* XCBuildMessageTextBookmark */ = 1F48C07D10AF098D008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C07E10AF098D008B9064 /* PBXTextBookmark */ = 1F48C07E10AF098D008B9064 /* PBXTextBookmark */;
+			1F48C08110AF09DF008B9064 /* PBXTextBookmark */ = 1F48C08110AF09DF008B9064 /* PBXTextBookmark */;
+			1F48C08610AF0B6C008B9064 /* PBXTextBookmark */ = 1F48C08610AF0B6C008B9064 /* PBXTextBookmark */;
+			1F48C08F10AF0DE3008B9064 /* PBXTextBookmark */ = 1F48C08F10AF0DE3008B9064 /* PBXTextBookmark */;
+			1F48C09010AF0DE3008B9064 /* XCBuildMessageTextBookmark */ = 1F48C09010AF0DE3008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C09110AF0DE3008B9064 /* PBXTextBookmark */ = 1F48C09110AF0DE3008B9064 /* PBXTextBookmark */;
+			1F48C09410AF0F5A008B9064 /* PBXTextBookmark */ = 1F48C09410AF0F5A008B9064 /* PBXTextBookmark */;
+			1F48C09510AF0F5A008B9064 /* PBXTextBookmark */ = 1F48C09510AF0F5A008B9064 /* PBXTextBookmark */;
+			1F48C09610AF0F5A008B9064 /* PBXTextBookmark */ = 1F48C09610AF0F5A008B9064 /* PBXTextBookmark */;
+			1F48C09710AF0F5A008B9064 /* PBXTextBookmark */ = 1F48C09710AF0F5A008B9064 /* PBXTextBookmark */;
+			1F48C09A10AF0FA6008B9064 /* PBXTextBookmark */ = 1F48C09A10AF0FA6008B9064 /* PBXTextBookmark */;
+			1F48C09B10AF1056008B9064 /* PBXTextBookmark */ = 1F48C09B10AF1056008B9064 /* PBXTextBookmark */;
+			1F48C09C10AF10A5008B9064 /* PBXTextBookmark */ = 1F48C09C10AF10A5008B9064 /* PBXTextBookmark */;
+			1F48C09D10AF10D8008B9064 /* PBXTextBookmark */ = 1F48C09D10AF10D8008B9064 /* PBXTextBookmark */;
+			1F48C09E10AF115A008B9064 /* PBXTextBookmark */ = 1F48C09E10AF115A008B9064 /* PBXTextBookmark */;
+			1F48C0A110AF11A9008B9064 /* PBXTextBookmark */ = 1F48C0A110AF11A9008B9064 /* PBXTextBookmark */;
+			1F48C0A210AF1345008B9064 /* PBXTextBookmark */ = 1F48C0A210AF1345008B9064 /* PBXTextBookmark */;
+			1F48C0A310AF1345008B9064 /* PBXTextBookmark */ = 1F48C0A310AF1345008B9064 /* PBXTextBookmark */;
+			1F48C0A410AF1345008B9064 /* PBXTextBookmark */ = 1F48C0A410AF1345008B9064 /* PBXTextBookmark */;
+			1F48C0A510AF1345008B9064 /* PBXTextBookmark */ = 1F48C0A510AF1345008B9064 /* PBXTextBookmark */;
+			1F48C0A810AF1380008B9064 /* PBXTextBookmark */ = 1F48C0A810AF1380008B9064 /* PBXTextBookmark */;
+			1F48C0A910AF1380008B9064 /* PBXTextBookmark */ = 1F48C0A910AF1380008B9064 /* PBXTextBookmark */;
+			1F48C0AA10AF1380008B9064 /* PBXTextBookmark */ = 1F48C0AA10AF1380008B9064 /* PBXTextBookmark */;
+			1F48C0AD10AF141E008B9064 /* PBXTextBookmark */ = 1F48C0AD10AF141E008B9064 /* PBXTextBookmark */;
+			1F48C0AE10AF141E008B9064 /* XCBuildMessageTextBookmark */ = 1F48C0AE10AF141E008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C0AF10AF141E008B9064 /* PBXTextBookmark */ = 1F48C0AF10AF141E008B9064 /* PBXTextBookmark */;
+			1F48C0B710AF1539008B9064 /* XCBuildMessageTextBookmark */ = 1F48C0B710AF1539008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C0B810AF1539008B9064 /* PBXTextBookmark */ = 1F48C0B810AF1539008B9064 /* PBXTextBookmark */;
+			1F48C0B910AF157E008B9064 /* PBXTextBookmark */ = 1F48C0B910AF157E008B9064 /* PBXTextBookmark */;
+			1F48C0F810AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0F810AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0F910AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0F910AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0FA10AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0FA10AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0FB10AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0FB10AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0FC10AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0FC10AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0FD10AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0FD10AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C0FF10AF15E6008B9064 /* PBXTextBookmark */ = 1F48C0FF10AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C10010AF15E6008B9064 /* PBXTextBookmark */ = 1F48C10010AF15E6008B9064 /* PBXTextBookmark */;
+			1F48C10910AF18F4008B9064 /* PBXTextBookmark */ = 1F48C10910AF18F4008B9064 /* PBXTextBookmark */;
+			1F48C10A10AF18F4008B9064 /* XCBuildMessageTextBookmark */ = 1F48C10A10AF18F4008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C10B10AF18F4008B9064 /* PBXTextBookmark */ = 1F48C10B10AF18F4008B9064 /* PBXTextBookmark */;
+			1F48C11C10AF2F81008B9064 /* PBXTextBookmark */ = 1F48C11C10AF2F81008B9064 /* PBXTextBookmark */;
+			1F48C11D10AF2F81008B9064 /* XCBuildMessageTextBookmark */ = 1F48C11D10AF2F81008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C11E10AF2F81008B9064 /* PBXTextBookmark */ = 1F48C11E10AF2F81008B9064 /* PBXTextBookmark */;
+			1F48C11F10AF2F84008B9064 /* PBXTextBookmark */ = 1F48C11F10AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12110AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12110AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12210AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12210AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12310AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12310AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12410AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12410AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12510AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12510AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12610AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12610AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12710AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12710AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12910AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12910AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12B10AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12B10AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12C10AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12C10AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C12D10AF2F84008B9064 /* PBXTextBookmark */ = 1F48C12D10AF2F84008B9064 /* PBXTextBookmark */;
+			1F48C13E10AF32A9008B9064 /* PBXTextBookmark */ = 1F48C13E10AF32A9008B9064 /* PBXTextBookmark */;
+			1F48C13F10AF32A9008B9064 /* PBXTextBookmark */ = 1F48C13F10AF32A9008B9064 /* PBXTextBookmark */;
+			1F48C14010AF32A9008B9064 /* PBXTextBookmark */ = 1F48C14010AF32A9008B9064 /* PBXTextBookmark */;
+			1F48C14110AF32A9008B9064 /* PBXTextBookmark */ = 1F48C14110AF32A9008B9064 /* PBXTextBookmark */;
+			1F48C14210AF32AC008B9064 /* PBXTextBookmark */ = 1F48C14210AF32AC008B9064 /* PBXTextBookmark */;
+			1F48C14310AF32AC008B9064 /* PBXTextBookmark */ = 1F48C14310AF32AC008B9064 /* PBXTextBookmark */;
+			1F48C14410AF32AC008B9064 /* XCBuildMessageTextBookmark */ = 1F48C14410AF32AC008B9064 /* XCBuildMessageTextBookmark */;
+			1F48C14510AF32AC008B9064 /* PBXTextBookmark */ = 1F48C14510AF32AC008B9064 /* PBXTextBookmark */;
+			1F545A7810AC573F006D143F = 1F545A7810AC573F006D143F /* PBXTextBookmark */;
+			1F545A7A10AC573F006D143F = 1F545A7A10AC573F006D143F /* PBXTextBookmark */;
+			1F545A7C10AC573F006D143F = 1F545A7C10AC573F006D143F /* PBXTextBookmark */;
+			1F545A7E10AC573F006D143F = 1F545A7E10AC573F006D143F /* PBXTextBookmark */;
+			1F545A8010AC573F006D143F = 1F545A8010AC573F006D143F /* PBXTextBookmark */;
+			1F545A9410AEE784006D143F = 1F545A9410AEE784006D143F /* PBXTextBookmark */;
+			1F545A9810AEE784006D143F = 1F545A9810AEE784006D143F /* PBXTextBookmark */;
+			1F545A9910AEE784006D143F = 1F545A9910AEE784006D143F /* PBXTextBookmark */;
+			1F545AA310AEE8D4006D143F = 1F545AA310AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA410AEE8D4006D143F = 1F545AA410AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA510AEE8D4006D143F = 1F545AA510AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA610AEE8D4006D143F = 1F545AA610AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA710AEE8D4006D143F = 1F545AA710AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA810AEE8D4006D143F = 1F545AA810AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AA910AEE8D4006D143F = 1F545AA910AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AAA10AEE8D4006D143F = 1F545AAA10AEE8D4006D143F /* PBXTextBookmark */;
+			1F545AAD10AEE8EE006D143F = 1F545AAD10AEE8EE006D143F /* PBXTextBookmark */;
+			1F545AAE10AEE8EE006D143F = 1F545AAE10AEE8EE006D143F /* PBXTextBookmark */;
 			1FB6FC3110AB0BD400232E4B = 1FB6FC3110AB0BD400232E4B /* PBXTextBookmark */;
-			1FB6FC3210AB0BD400232E4B = 1FB6FC3210AB0BD400232E4B /* PBXTextBookmark */;
-			1FB6FC3410AB0BD400232E4B = 1FB6FC3410AB0BD400232E4B /* PBXTextBookmark */;
-			1FB6FC3510AB0BD400232E4B = 1FB6FC3510AB0BD400232E4B /* PBXTextBookmark */;
 			1FB6FC3F10AB158D00232E4B = 1FB6FC3F10AB158D00232E4B /* PBXTextBookmark */;
-			1FB6FC4010AB158D00232E4B = 1FB6FC4010AB158D00232E4B /* PBXTextBookmark */;
-			1FB6FC4110AB158D00232E4B = 1FB6FC4110AB158D00232E4B /* PBXTextBookmark */;
-			1FB6FC7110AB649100232E4B = 1FB6FC7110AB649100232E4B /* PBXTextBookmark */;
-			1FB6FC7210AB649100232E4B = 1FB6FC7210AB649100232E4B /* PBXTextBookmark */;
-			1FB6FC7410AB692B00232E4B = 1FB6FC7410AB692B00232E4B /* PBXTextBookmark */;
-			1FBADE5110AAFBE900BAB679 = 1FBADE5110AAFBE900BAB679 /* PBXTextBookmark */;
-			1FBADE5310AAFBE900BAB679 = 1FBADE5310AAFBE900BAB679 /* PBXTextBookmark */;
-			1FBADE5410AAFBE900BAB679 = 1FBADE5410AAFBE900BAB679 /* PBXTextBookmark */;
 			1FBADE7210AAFCF300BAB679 = 1FBADE7210AAFCF300BAB679 /* PBXBookmark */;
 		};
 		sourceControlManager = 1FBADE3610AAFAE400BAB679 /* Source Control */;
