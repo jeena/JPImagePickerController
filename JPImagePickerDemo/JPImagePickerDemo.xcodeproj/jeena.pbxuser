@@ -25,7 +25,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 95";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1444;
 		vrLoc = 1571;
@@ -61,7 +61,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 95";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1444;
 		vrLoc = 1571;
@@ -189,7 +189,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 38";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 320;
@@ -199,7 +199,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 37";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1273;
 		vrLoc = 320;
@@ -225,7 +225,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1596;
 		vrLoc = 339;
@@ -251,7 +251,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 43";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 618;
@@ -321,7 +321,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -331,7 +331,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 50";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 618;
@@ -440,7 +440,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -466,7 +466,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 52";
 		rLen = 6;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 798;
@@ -476,7 +476,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 51";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 409;
@@ -574,7 +574,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 26";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 230;
@@ -584,7 +584,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 38";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 98;
@@ -594,7 +594,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 43";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 518;
@@ -604,7 +604,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 32";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 518;
@@ -614,7 +614,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 40";
 		rLen = 0;
-		rLoc = 4524;
+		rLoc = 4535;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 518;
@@ -624,7 +624,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 56";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1584;
 		vrLoc = 1040;
@@ -634,7 +634,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 37";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4877;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 756;
@@ -644,7 +644,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 24";
 		rLen = 0;
-		rLoc = 4518;
+		rLoc = 4529;
 		rType = 0;
 		vrLen = 1341;
 		vrLoc = 0;
@@ -674,7 +674,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 24";
 		rLen = 0;
-		rLoc = 4518;
+		rLoc = 4529;
 		rType = 0;
 		vrLen = 1294;
 		vrLoc = 3;
@@ -684,7 +684,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 149";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 3747;
@@ -694,7 +694,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 196";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1707;
 		vrLoc = 5212;
@@ -812,7 +812,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -968,7 +968,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -1050,7 +1050,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 124";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 3364;
@@ -1060,7 +1060,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 111";
 		rLen = 0;
-		rLoc = 6831;
+		rLoc = 6858;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 3449;
@@ -1080,7 +1080,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 32";
 		rLen = 13;
-		rLoc = 890;
+		rLoc = 906;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 0;
@@ -1143,6 +1143,86 @@
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 141;
+	};
+	1F48C14C10AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 160";
+		rLen = 22;
+		rLoc = 5701;
+		rType = 0;
+		vrLen = 1525;
+		vrLoc = 5044;
+	};
+	1F48C14D10AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
+		name = "JPImagePickerController.m: 15";
+		rLen = 13;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 0;
+	};
+	1F48C14E10AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */;
+		name = "JPImagePickerOverviewController.h: 19";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 0;
+	};
+	1F48C14F10AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
+		name = "JPImagePickerOverviewController.m: 94";
+		rLen = 0;
+		rLoc = 3330;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 2896;
+	};
+	1F48C15010AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */;
+		name = "JPImagePickerDetailController.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	1F48C15110AF34B1008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 81";
+		rLen = 0;
+		rLoc = 2536;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 1748;
+	};
+	1F48C15210AF3514008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */;
+		name = "JPImagePickerDetailController.m: 81";
+		rLen = 0;
+		rLoc = 2536;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 0;
+	};
+	1F48C15310AF3514008B9064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
+		name = "JPImagePickerController.h: 123";
+		rLen = 0;
+		rLoc = 4351;
+		rType = 0;
+		vrLen = 1339;
+		vrLoc = 4075;
 	};
 	1F545A7810AC573F006D143F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1281,7 +1361,7 @@
 		fRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */;
 		name = "JPImagePickerController.m: 55";
 		rLen = 0;
-		rLoc = 1875;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 1979;
@@ -1291,7 +1371,7 @@
 		fRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */;
 		name = "JPImagePickerOverviewController.m: 101";
 		rLen = 0;
-		rLoc = 3435;
+		rLoc = 3443;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 2717;
@@ -1351,7 +1431,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 95";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1439;
 		vrLoc = 1576;
@@ -1361,7 +1441,7 @@
 		fRef = 1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */;
 		name = "JPImagePickerController.h: 95";
 		rLen = 0;
-		rLoc = 6837;
+		rLoc = 6864;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 1572;
@@ -1430,23 +1510,23 @@
 	};
 	1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 2910}}";
-			sepNavSelRange = "{898, 0}";
-			sepNavVisRange = "{3, 1331}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 2850}}";
+			sepNavSelRange = "{4351, 0}";
+			sepNavVisRange = "{4075, 1339}";
 		};
 	};
 	1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 616}}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 593}}";
 			sepNavSelRange = "{192, 0}";
 			sepNavVisRange = "{0, 1097}";
 		};
 	};
 	1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {797, 540}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{141, 592}";
+			sepNavIntBoundsRect = "{{0, 0}, {924, 593}}";
+			sepNavSelRange = "{507, 0}";
+			sepNavVisRange = "{0, 1136}";
 		};
 	};
 	1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */ = {
@@ -1459,22 +1539,22 @@
 	1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 1455}}";
-			sepNavSelRange = "{162, 36}";
-			sepNavVisRange = "{0, 588}";
+			sepNavSelRange = "{331, 13}";
+			sepNavVisRange = "{0, 1523}";
 		};
 	};
 	1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 1530}}";
-			sepNavSelRange = "{1839, 0}";
-			sepNavVisRange = "{1535, 840}";
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 1560}}";
+			sepNavSelRange = "{2536, 0}";
+			sepNavVisRange = "{0, 1132}";
 		};
 	};
 	1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1118, 1980}}";
-			sepNavSelRange = "{1498, 0}";
-			sepNavVisRange = "{3849, 347}";
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 1935}}";
+			sepNavSelRange = "{3330, 0}";
+			sepNavVisRange = "{2896, 1278}";
 		};
 	};
 	1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */ = {
@@ -1699,6 +1779,14 @@
 			1F48C14310AF32AC008B9064 /* PBXTextBookmark */ = 1F48C14310AF32AC008B9064 /* PBXTextBookmark */;
 			1F48C14410AF32AC008B9064 /* XCBuildMessageTextBookmark */ = 1F48C14410AF32AC008B9064 /* XCBuildMessageTextBookmark */;
 			1F48C14510AF32AC008B9064 /* PBXTextBookmark */ = 1F48C14510AF32AC008B9064 /* PBXTextBookmark */;
+			1F48C14C10AF34B1008B9064 /* PBXTextBookmark */ = 1F48C14C10AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C14D10AF34B1008B9064 /* PBXTextBookmark */ = 1F48C14D10AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C14E10AF34B1008B9064 /* PBXTextBookmark */ = 1F48C14E10AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C14F10AF34B1008B9064 /* PBXTextBookmark */ = 1F48C14F10AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C15010AF34B1008B9064 /* PBXTextBookmark */ = 1F48C15010AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C15110AF34B1008B9064 /* PBXTextBookmark */ = 1F48C15110AF34B1008B9064 /* PBXTextBookmark */;
+			1F48C15210AF3514008B9064 /* PBXTextBookmark */ = 1F48C15210AF3514008B9064 /* PBXTextBookmark */;
+			1F48C15310AF3514008B9064 /* PBXTextBookmark */ = 1F48C15310AF3514008B9064 /* PBXTextBookmark */;
 			1F545A7810AC573F006D143F = 1F545A7810AC573F006D143F /* PBXTextBookmark */;
 			1F545A7A10AC573F006D143F = 1F545A7A10AC573F006D143F /* PBXTextBookmark */;
 			1F545A7C10AC573F006D143F = 1F545A7C10AC573F006D143F /* PBXTextBookmark */;

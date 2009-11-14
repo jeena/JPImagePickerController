@@ -78,7 +78,7 @@
 }
 
 - (IBAction)finishedPicking:(id)sender {
-	[[UIApplication sharedApplication] setStatusBarStyle:overviewController.imagePickerController.statusBarStyle animated:YES];
+	[[UIApplication sharedApplication] setStatusBarStyle:overviewController.imagePickerController.originalStatusBarStyle animated:YES];
 	[overviewController.imagePickerController.delegate imagePicker:overviewController.imagePickerController didFinishPickingWithImageNumber:imageNumber];
 }
 

@@ -12,7 +12,7 @@
 
 @implementation JPImagePickerController
 
-@synthesize overviewController, modalNavigationController, delegate, dataSource, statusBarStyle;
+@synthesize overviewController, modalNavigationController, delegate, dataSource, originalStatusBarStyle;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	statusBarStyle = [UIApplication sharedApplication].statusBarStyle;
+	originalStatusBarStyle = [UIApplication sharedApplication].statusBarStyle;
 	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
 	
 	overviewController = [[JPImagePickerOverviewController alloc] initWithImagePickerController:self];

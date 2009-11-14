@@ -91,7 +91,7 @@
 */
 
 - (IBAction)cancelPicking:(id)sender {
-	[[UIApplication sharedApplication] setStatusBarStyle:imagePickerController.statusBarStyle animated:YES];
+	[[UIApplication sharedApplication] setStatusBarStyle:imagePickerController.originalStatusBarStyle animated:YES];
 	[imagePickerController.delegate imagePickerDidCancel:imagePickerController];
 }
 

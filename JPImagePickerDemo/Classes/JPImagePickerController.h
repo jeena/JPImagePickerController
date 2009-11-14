@@ -120,7 +120,7 @@ enum JPImagePickerControllerPreviewImageSize {
 
 /*!
  @class JPImagePickerController
- @abstract A image picker view.
+ @abstract A image picker view controller.
  @discussion A class which represents a image picker controller like apples UIImagePickerController
  but lets you use a external dataSource for the images.
  @updated 2009-11-14
@@ -129,7 +129,7 @@ enum JPImagePickerControllerPreviewImageSize {
 @interface JPImagePickerController : UIViewController {
 	IBOutlet UINavigationController *modalNavigationController;
 	JPImagePickerOverviewController *overviewController;
-	UIStatusBarStyle statusBarStyle; 
+	UIStatusBarStyle originalStatusBarStyle; 
 	id<JPImagePickerControllerDelegate> delegate;
 	id<JPImagePickerControllerDataSource> dataSource;
 	NSString *imagePickerTitle;
@@ -157,7 +157,7 @@ enum JPImagePickerControllerPreviewImageSize {
  @discussion This property saves the UIStatusBarStyle at the beginning, so that
  we'll be able to change it back when we dismiss the image picker.
  */
-@property (nonatomic, readonly) UIStatusBarStyle statusBarStyle;
+@property (nonatomic, readonly) UIStatusBarStyle originalStatusBarStyle;
 
 /*!
  @property delegate

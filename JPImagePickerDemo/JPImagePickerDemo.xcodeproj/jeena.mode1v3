@@ -265,9 +265,6 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>1FBADE3510AAFAE400BAB679</string>
-								<string>29B97323FDCFA39411CA2CEA</string>
-								<string>1DF5F4DF0D08C38300B7A737</string>
-								<string>1F48C01910AEE8FB008B9064</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -329,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1F48C14110AF32A9008B9064</string>
+										<string>1F48C15310AF3514008B9064</string>
 										<key>history</key>
 										<array>
 											<string>1FBADE7210AAFCF300BAB679</string>
@@ -345,8 +342,6 @@
 											<string>1F48C04610AF031D008B9064</string>
 											<string>1F48C04910AF031D008B9064</string>
 											<string>1F48C07710AF0974008B9064</string>
-											<string>1F48C09410AF0F5A008B9064</string>
-											<string>1F48C09510AF0F5A008B9064</string>
 											<string>1F48C11F10AF2F84008B9064</string>
 											<string>1F48C12110AF2F84008B9064</string>
 											<string>1F48C12210AF2F84008B9064</string>
@@ -355,10 +350,12 @@
 											<string>1F48C12610AF2F84008B9064</string>
 											<string>1F48C12710AF2F84008B9064</string>
 											<string>1F48C12910AF2F84008B9064</string>
-											<string>1F48C12B10AF2F84008B9064</string>
-											<string>1F48C13E10AF32A9008B9064</string>
-											<string>1F48C13F10AF32A9008B9064</string>
-											<string>1F48C14010AF32A9008B9064</string>
+											<string>1F48C14D10AF34B1008B9064</string>
+											<string>1F48C14E10AF34B1008B9064</string>
+											<string>1F48C14F10AF34B1008B9064</string>
+											<string>1F48C15010AF34B1008B9064</string>
+											<string>1F48C15210AF3514008B9064</string>
+											<string>1F48C14C10AF34B1008B9064</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -556,11 +553,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/JPImagePickerDemo.xcodeproj</string>
 		<string>1FBADE3B10AAFAF000BAB679</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>/Users/jeena/Projects/JPImagePickerController/JPImagePickerDemo/JPImagePickerDemo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -655,7 +652,7 @@
 			<key>WindowToolGUID</key>
 			<string>1FBADE3B10AAFAF000BAB679</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -870,7 +867,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
