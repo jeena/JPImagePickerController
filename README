@@ -25,3 +25,6 @@ JPImagePickerController object and set the delegate and dataSource.
 
 There is a HTML documentation on that in the demo application, open the
 Documentation/index.html file in a browser.
+
+To use the picker in your own project add the files in the directory
+Classes to your Xcode project.
