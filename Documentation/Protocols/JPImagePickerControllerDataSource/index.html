@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>JPImagePickerControllerDataSource</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ascii" />
+ <meta name="generator" content="HeaderDoc" />
+<meta name="xcode-display" content="render" />
+<style><!--
+#tocMenu {
+		display: block;
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:210px;
+		height:100%;
+		background:transparent;
+}
+#bodyText {
+		margin-left: 210px;
+}
+--></style>
+<script language="JavaScript" type="text/javascript"><!--
+function hidetoc() {
+	var origURL = parent.document.URL;
+	var contentURL = origURL.substring(origURL.indexOf('?')+1, origURL.length);
+	if (contentURL.length == origURL.length) {
+		jumpPos = origURL.substring(origURL.indexOf('#')+1, origURL.length);
+	}
+	if (contentURL == "hidetoc") {
+		var toc = document.getElementById('tocMenu');
+		var body = document.getElementById('bodyText');
+		if (toc && body) {
+			toc.style.display = 'none';
+			body.style.marginLeft = '0px';
+		}
+	}
+}
+--></script>
+<style type="text/css"><!--.keyword {background:#ffffff; color:#761550;}.template {background:#ffffff; color:#761550;}.number {background: #ffffff; color:#0000ff;}.function {background:#ffffff; color:#000000;}.string {background: #ffffff; color:#891315;}.preprocessor {background:#ffffff; color:#236e25}.comment {background:#ffffff; color:#236e25}.char {background: #ffffff; color:#0000ff;}.var {background:#ffffff; color:#000000;}.type {background:#ffffff; color:#761550;}.param {background:#ffffff; color:#000000;}a:link {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:active {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}h4 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: tiny; font-weight: bold;}body {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: 10pt;}.list_indent { margin-left: 40px; }.declaration_indent { margin-left: 40px; }.param_indent { margin-left: 40px; }.group_indent { margin-left: 40px; }.group_desc_indent { margin-left: 20px; }.warning_indent { margin-left: 40px; }.important_indent { margin-left: 40px; }.hd_tocAccess { font-style: italic; font-size: 10px; font-weight: normal; color: #303030; }--></style></head><body bgcolor="#ffffff" onload="hidetoc();">
+</div>
+<!-- headerDoc=intf; uid=//apple_ref/occ/intf/JPImagePickerControllerDataSource;  name=JPImagePickerControllerDataSource-->
+<a name="//apple_ref/occ/intf/JPImagePickerControllerDataSource"></a><div id='tocMenu'>
+<iframe id='toc_content' name='toc_content' SRC='toc.html' width='210' height='100%' align='left' frameborder='0'>This document set is best viewed in a browser that supports iFrames.</iframe>
+</div>
+<div id='bodyText'>
+<a name="top"></a>
+<hr><table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h1><a name="JPImagePickerControllerDataSource">JPImagePickerControllerDataSource</a></h1>
+</td></tr></table><hr><p><!-- begin abstract --><p>The data source protocol for JPImagePickerController
+<!-- end abstract --></p>
+<p><b>Extends&nbsp;Protocol:</b> <!-- a logicalPath="//apple_ref/occ/intf/NSObject" -->NSObject<!-- /a --><br>
+<b>Declared In:</b> <a href="../../index.html" target="_top">JPImagePickerController.h</a><br>
+</p><div class='declaration_indent'>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font>
+</h5><!-- begin discussion --><p>The JPImagePickerController asks this data source for all
+data which it wants to display.
+<!-- end discussion -->
+<p></p><hr><br><a name="HeaderDoc_methods"></a>
+<h2>Methods</h2>
+<dl>
+<dt><tt><a href="index.html#//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:imageForImageNumber:" target="_top">-imagePicker:imageForImageNumber:</a></tt></dt>
+<dd><p>Asks the data source for a image to show in a preview.
+</dd>
+<dt><tt><a href="index.html#//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:thumbnailForImageNumber:" target="_top">-imagePicker:thumbnailForImageNumber:</a></tt></dt>
+<dd><p>Asks the data source for a thumbnail to insert in a particular location
+the image picker.
+</dd>
+<dt><tt><a href="index.html#//apple_ref/occ/intfm/JPImagePickerControllerDataSource/numberOfImagesInImagePicker:" target="_top">-numberOfImagesInImagePicker:</a></tt></dt>
+<dd><p>Should return the number of images.
+</dd>
+</dl>
+<hr><!-- headerDoc=intfm;  uid=//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:imageForImageNumber:;   name=JPImagePickerControllerDataSource::imagePicker:imageForImageNumber: -->
+<a name="//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:imageForImageNumber:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="imagePicker:imageForImageNumber:">imagePicker:imageForImageNumber:</a></h3>
+</td></tr></table><hr><p><!-- begin abstract --><p>Asks the data source for a image to show in a preview.
+<!-- end abstract --></p>
+<p></p><div class='declaration_indent'>
+<pre>- (<!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/econst/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/clconst/UIImage //apple_ref/occ/intf/UIImage" --><span class="type">UIImage</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/instm/imagePicker //apple_ref/occ/clm/imagePicker //apple_ref/occ/intfcm/imagePicker //apple_ref/occ/intfm/imagePicker //apple_ref/occ/func/imagePicker //apple_ref/occ/ftmplt/imagePicker //apple_ref/occ/defn/imagePicker //apple_ref/occ/macro/imagePicker" --><span class="function">imagePicker</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/JPImagePickerController //apple_ref/occ/tdef/JPImagePickerController //apple_ref/occ/tag/JPImagePickerController //apple_ref/occ/econst/JPImagePickerController //apple_ref/occ/struct/JPImagePickerController //apple_ref/occ/clconst/JPImagePickerController //apple_ref/occ/intf/JPImagePickerController" --><span class="type">JPImagePickerController</span><!-- /a --> <span class="type">*</span>)<span class="param">picker</span> 
+        <!-- a logicalPath="//apple_ref/occ/instm/imageForImageNumber //apple_ref/occ/clm/imageForImageNumber //apple_ref/occ/intfcm/imageForImageNumber //apple_ref/occ/intfm/imageForImageNumber //apple_ref/occ/func/imageForImageNumber //apple_ref/occ/ftmplt/imageForImageNumber //apple_ref/occ/defn/imageForImageNumber //apple_ref/occ/macro/imageForImageNumber" --><span class="function">imageForImageNumber</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/econst/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/clconst/NSInteger //apple_ref/occ/intf/NSInteger" --><span class="type">NSInteger</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/imageNumber //apple_ref/occ/data/imageNumber" --><span class="var">imageNumber</span><!-- /a -->; </pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><code>picker</code></dt><dd><p>A picker-object requesting the image.</dd>
+<dt><code>imageNumber</code></dt><dd><p>A image number locating the image in the picker.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font>
+</h5><!-- begin discussion --><p>This method should return a UIImage image for the preview at
+the image number position. The image should have the width of kJPImagePickerControllerPreviewImageWidth
+and height of kJPImagePickerControllerPreviewImageWidth. If it is not that size the
+image picker will resize it so it fits.
+<!-- end discussion -->
+<p></p><hr><!-- headerDoc=intfm;  uid=//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:thumbnailForImageNumber:;   name=JPImagePickerControllerDataSource::imagePicker:thumbnailForImageNumber: -->
+<a name="//apple_ref/occ/intfm/JPImagePickerControllerDataSource/imagePicker:thumbnailForImageNumber:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="imagePicker:thumbnailForImageNumber:">imagePicker:thumbnailForImageNumber:</a></h3>
+</td></tr></table><hr><p><!-- begin abstract --><p>Asks the data source for a thumbnail to insert in a particular location
+the image picker.
+<!-- end abstract --></p>
+<p></p><div class='declaration_indent'>
+<pre>- (<!-- a logicalPath="//apple_ref/occ/cl/UIImage //apple_ref/occ/tdef/UIImage //apple_ref/occ/tag/UIImage //apple_ref/occ/econst/UIImage //apple_ref/occ/struct/UIImage //apple_ref/occ/clconst/UIImage //apple_ref/occ/intf/UIImage" --><span class="type">UIImage</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/instm/imagePicker //apple_ref/occ/clm/imagePicker //apple_ref/occ/intfcm/imagePicker //apple_ref/occ/intfm/imagePicker //apple_ref/occ/func/imagePicker //apple_ref/occ/ftmplt/imagePicker //apple_ref/occ/defn/imagePicker //apple_ref/occ/macro/imagePicker" --><span class="function">imagePicker</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/JPImagePickerController //apple_ref/occ/tdef/JPImagePickerController //apple_ref/occ/tag/JPImagePickerController //apple_ref/occ/econst/JPImagePickerController //apple_ref/occ/struct/JPImagePickerController //apple_ref/occ/clconst/JPImagePickerController //apple_ref/occ/intf/JPImagePickerController" --><span class="type">JPImagePickerController</span><!-- /a --> <span class="type">*</span>)<span class="param">picker</span> 
+        <!-- a logicalPath="//apple_ref/occ/instm/thumbnailForImageNumber //apple_ref/occ/clm/thumbnailForImageNumber //apple_ref/occ/intfcm/thumbnailForImageNumber //apple_ref/occ/intfm/thumbnailForImageNumber //apple_ref/occ/func/thumbnailForImageNumber //apple_ref/occ/ftmplt/thumbnailForImageNumber //apple_ref/occ/defn/thumbnailForImageNumber //apple_ref/occ/macro/thumbnailForImageNumber" --><span class="function">thumbnailForImageNumber</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/econst/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/clconst/NSInteger //apple_ref/occ/intf/NSInteger" --><span class="type">NSInteger</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/imageNumber //apple_ref/occ/data/imageNumber" --><span class="var">imageNumber</span><!-- /a -->; </pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><code>picker</code></dt><dd><p>A picker-object requesting the thumbnail.</dd>
+<dt><code>imageNumber</code></dt><dd><p>A image number locating the image in the picker.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font>
+</h5><!-- begin discussion --><p>This method should return a UIImage thumbnail for a image at the
+image number position. The image should have the width of kJPImagePickerControllerThumbnailWidth
+and height of kJPImagePickerControllerThumbnailWidth. If it is not that size the
+image picker will resize it so it fits.
+<!-- end discussion -->
+<p></p><hr><!-- headerDoc=intfm;  uid=//apple_ref/occ/intfm/JPImagePickerControllerDataSource/numberOfImagesInImagePicker:;   name=JPImagePickerControllerDataSource::numberOfImagesInImagePicker: -->
+<a name="//apple_ref/occ/intfm/JPImagePickerControllerDataSource/numberOfImagesInImagePicker:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="numberOfImagesInImagePicker:">numberOfImagesInImagePicker:</a></h3>
+</td></tr></table><hr><p><!-- begin abstract --><p>Should return the number of images.
+<!-- end abstract --></p>
+<p></p><div class='declaration_indent'>
+<pre>- (<!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/econst/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/clconst/NSInteger //apple_ref/occ/intf/NSInteger" --><span class="type">NSInteger</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/instm/numberOfImagesInImagePicker //apple_ref/occ/clm/numberOfImagesInImagePicker //apple_ref/occ/intfcm/numberOfImagesInImagePicker //apple_ref/occ/intfm/numberOfImagesInImagePicker //apple_ref/occ/func/numberOfImagesInImagePicker //apple_ref/occ/ftmplt/numberOfImagesInImagePicker //apple_ref/occ/defn/numberOfImagesInImagePicker //apple_ref/occ/macro/numberOfImagesInImagePicker" --><span class="function">numberOfImagesInImagePicker</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/JPImagePickerController //apple_ref/occ/tdef/JPImagePickerController //apple_ref/occ/tag/JPImagePickerController //apple_ref/occ/econst/JPImagePickerController //apple_ref/occ/struct/JPImagePickerController //apple_ref/occ/clconst/JPImagePickerController //apple_ref/occ/intf/JPImagePickerController" --><span class="type">JPImagePickerController</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/picker //apple_ref/occ/data/picker" --><span class="var">picker</span><!-- /a -->; </pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><code>picker</code></dt><dd><p>The picker which called this method.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font>
+</h5><!-- begin discussion --><p>This method should return the number of images which the
+picker should display.
+<!-- end discussion -->
+<p></p><p>Last Updated: Saturday, November 14, 2009
+</p></body></html>
