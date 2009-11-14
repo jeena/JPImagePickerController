@@ -11,12 +11,12 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		1FBADE4910AAFB4600BAB679 /* JPImagePickerDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBADE4310AAFB4600BAB679 /* JPImagePickerDetailController.xib */; };
-		1FBADE4A10AAFB4600BAB679 /* JPImagePickerOverviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBADE4410AAFB4600BAB679 /* JPImagePickerOverviewController.xib */; };
-		1FBADE4B10AAFB4600BAB679 /* JPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */; };
-		1FBADE4C10AAFB4600BAB679 /* JPImagePickerDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */; };
-		1FBADE4D10AAFB4600BAB679 /* JPImagePickerOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */; };
-		1FBADE4E10AAFB4600BAB679 /* UIImageResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */; };
+		1F3A7D0010AF40A300ED9B63 /* JPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7CF710AF40A300ED9B63 /* JPImagePickerController.m */; };
+		1F3A7D0110AF40A300ED9B63 /* JPImagePickerDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7CF910AF40A300ED9B63 /* JPImagePickerDetailController.m */; };
+		1F3A7D0210AF40A300ED9B63 /* JPImagePickerDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A7CFA10AF40A300ED9B63 /* JPImagePickerDetailController.xib */; };
+		1F3A7D0310AF40A300ED9B63 /* JPImagePickerOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7CFC10AF40A300ED9B63 /* JPImagePickerOverviewController.m */; };
+		1F3A7D0410AF40A300ED9B63 /* JPImagePickerOverviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A7CFD10AF40A300ED9B63 /* JPImagePickerOverviewController.xib */; };
+		1F3A7D0510AF40A300ED9B63 /* UIImageResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7CFF10AF40A300ED9B63 /* UIImageResizing.m */; };
 		1FBADE6910AAFC5D00BAB679 /* i1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBADE6010AAFC5D00BAB679 /* i1.png */; };
 		1FBADE6A10AAFC5D00BAB679 /* i2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBADE6110AAFC5D00BAB679 /* i2.png */; };
 		1FBADE6B10AAFC5D00BAB679 /* i3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBADE6210AAFC5D00BAB679 /* i3.png */; };
@@ -38,16 +38,16 @@
 		1D3623250D0F684500981E51 /* JPImagePickerDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerDemoAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* JPImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerController.h; sourceTree = "<group>"; };
-		1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerDetailController.h; sourceTree = "<group>"; };
-		1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerOverviewController.h; sourceTree = "<group>"; };
-		1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageResizing.h; sourceTree = "<group>"; };
-		1FBADE4310AAFB4600BAB679 /* JPImagePickerDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerDetailController.xib; sourceTree = "<group>"; };
-		1FBADE4410AAFB4600BAB679 /* JPImagePickerOverviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerOverviewController.xib; sourceTree = "<group>"; };
-		1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerController.m; sourceTree = "<group>"; };
-		1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerDetailController.m; sourceTree = "<group>"; };
-		1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerOverviewController.m; sourceTree = "<group>"; };
-		1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageResizing.m; sourceTree = "<group>"; };
+		1F3A7CF610AF40A300ED9B63 /* JPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerController.h; sourceTree = "<group>"; };
+		1F3A7CF710AF40A300ED9B63 /* JPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerController.m; sourceTree = "<group>"; };
+		1F3A7CF810AF40A300ED9B63 /* JPImagePickerDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerDetailController.h; sourceTree = "<group>"; };
+		1F3A7CF910AF40A300ED9B63 /* JPImagePickerDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerDetailController.m; sourceTree = "<group>"; };
+		1F3A7CFA10AF40A300ED9B63 /* JPImagePickerDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerDetailController.xib; sourceTree = "<group>"; };
+		1F3A7CFB10AF40A300ED9B63 /* JPImagePickerOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePickerOverviewController.h; sourceTree = "<group>"; };
+		1F3A7CFC10AF40A300ED9B63 /* JPImagePickerOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePickerOverviewController.m; sourceTree = "<group>"; };
+		1F3A7CFD10AF40A300ED9B63 /* JPImagePickerOverviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerOverviewController.xib; sourceTree = "<group>"; };
+		1F3A7CFE10AF40A300ED9B63 /* UIImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageResizing.h; sourceTree = "<group>"; };
+		1F3A7CFF10AF40A300ED9B63 /* UIImageResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageResizing.m; sourceTree = "<group>"; };
 		1FBADE6010AAFC5D00BAB679 /* i1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i1.png; sourceTree = "<group>"; };
 		1FBADE6110AAFC5D00BAB679 /* i2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i2.png; sourceTree = "<group>"; };
 		1FBADE6210AAFC5D00BAB679 /* i3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i3.png; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1FBADE3510AAFAE400BAB679 /* JPImagePicker */,
+				1F3A7CF510AF40A300ED9B63 /* JPImagePickerController */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* JPImagePickerDemoAppDelegate.h */,
@@ -101,22 +101,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FBADE3510AAFAE400BAB679 /* JPImagePicker */ = {
+		1F3A7CF510AF40A300ED9B63 /* JPImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				1FBADE3D10AAFB4600BAB679 /* JPImagePickerController.h */,
-				1FBADE4510AAFB4600BAB679 /* JPImagePickerController.m */,
-				1FBADE4110AAFB4600BAB679 /* JPImagePickerOverviewController.h */,
-				1FBADE4710AAFB4600BAB679 /* JPImagePickerOverviewController.m */,
-				1FBADE4410AAFB4600BAB679 /* JPImagePickerOverviewController.xib */,
-				1FBADE4010AAFB4600BAB679 /* JPImagePickerDetailController.h */,
-				1FBADE4610AAFB4600BAB679 /* JPImagePickerDetailController.m */,
-				1FBADE4310AAFB4600BAB679 /* JPImagePickerDetailController.xib */,
-				1FBADE4210AAFB4600BAB679 /* UIImageResizing.h */,
-				1FBADE4810AAFB4600BAB679 /* UIImageResizing.m */,
+				1F3A7CF610AF40A300ED9B63 /* JPImagePickerController.h */,
+				1F3A7CF710AF40A300ED9B63 /* JPImagePickerController.m */,
+				1F3A7CF810AF40A300ED9B63 /* JPImagePickerDetailController.h */,
+				1F3A7CF910AF40A300ED9B63 /* JPImagePickerDetailController.m */,
+				1F3A7CFA10AF40A300ED9B63 /* JPImagePickerDetailController.xib */,
+				1F3A7CFB10AF40A300ED9B63 /* JPImagePickerOverviewController.h */,
+				1F3A7CFC10AF40A300ED9B63 /* JPImagePickerOverviewController.m */,
+				1F3A7CFD10AF40A300ED9B63 /* JPImagePickerOverviewController.xib */,
+				1F3A7CFE10AF40A300ED9B63 /* UIImageResizing.h */,
+				1F3A7CFF10AF40A300ED9B63 /* UIImageResizing.m */,
 			);
-			name = JPImagePicker;
-			sourceTree = "<group>";
+			name = JPImagePickerController;
+			path = ../Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 		1FBADE5E10AAFC4D00BAB679 /* Images */ = {
 			isa = PBXGroup;
@@ -227,8 +228,6 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				1FBADE4910AAFB4600BAB679 /* JPImagePickerDetailController.xib in Resources */,
-				1FBADE4A10AAFB4600BAB679 /* JPImagePickerOverviewController.xib in Resources */,
 				1FBADE6910AAFC5D00BAB679 /* i1.png in Resources */,
 				1FBADE6A10AAFC5D00BAB679 /* i2.png in Resources */,
 				1FBADE6B10AAFC5D00BAB679 /* i3.png in Resources */,
@@ -238,6 +237,8 @@
 				1FBADE6F10AAFC5D00BAB679 /* t2.png in Resources */,
 				1FBADE7010AAFC5D00BAB679 /* t3.png in Resources */,
 				1FBADE7110AAFC5D00BAB679 /* t4.png in Resources */,
+				1F3A7D0210AF40A300ED9B63 /* JPImagePickerDetailController.xib in Resources */,
+				1F3A7D0410AF40A300ED9B63 /* JPImagePickerOverviewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +252,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* JPImagePickerDemoAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				1FBADE4B10AAFB4600BAB679 /* JPImagePickerController.m in Sources */,
-				1FBADE4C10AAFB4600BAB679 /* JPImagePickerDetailController.m in Sources */,
-				1FBADE4D10AAFB4600BAB679 /* JPImagePickerOverviewController.m in Sources */,
-				1FBADE4E10AAFB4600BAB679 /* UIImageResizing.m in Sources */,
+				1F3A7D0010AF40A300ED9B63 /* JPImagePickerController.m in Sources */,
+				1F3A7D0110AF40A300ED9B63 /* JPImagePickerDetailController.m in Sources */,
+				1F3A7D0310AF40A300ED9B63 /* JPImagePickerOverviewController.m in Sources */,
+				1F3A7D0510AF40A300ED9B63 /* UIImageResizing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
