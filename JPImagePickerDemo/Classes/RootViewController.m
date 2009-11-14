@@ -128,7 +128,7 @@
 		
 		imagePickerController.delegate = self;
 		imagePickerController.dataSource = self;
-		[imagePickerController setImagePickerTitle:@"Emoticards"];
+		imagePickerController.imagePickerTitle = @"ImagePicker";
 		
 		[self.navigationController presentModalViewController:imagePickerController animated:YES];
 		[imagePickerController release];	

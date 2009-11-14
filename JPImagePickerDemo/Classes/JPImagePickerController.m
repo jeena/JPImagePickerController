@@ -51,6 +51,9 @@
 
 -(void)viewWillAppear:(BOOL)animated { 
 	[super viewWillAppear:animated];
+	if (delegate == nil) {
+		[self.navigationController dismissModalViewControllerAnimated:YES];
+	}
 	[modalNavigationController viewWillAppear:animated];
 }
 
