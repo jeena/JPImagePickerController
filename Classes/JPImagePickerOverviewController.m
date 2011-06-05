@@ -26,10 +26,6 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-	[super viewWillAppear:animated];
-}
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -100,9 +96,7 @@
 
 
 - (void)buttonTouched:(UIButton *)sender {
-	//[self.activityIndicator startAnimating];
 	[self performSelector:@selector(pushDetailViewWithSender:) withObject:sender afterDelay:0];
-
 }
 
 - (void)pushDetailViewWithSender:(UIButton *)sender {
