@@ -65,10 +65,7 @@
 
 
 - (void)prepareForImageNumber:(NSInteger)newImageNumber {
-	if(imageNumber == newImageNumber){
-		previewImageView.image = largeImage;
-	}
-	imageNumber = newImageNumber;
+    imageNumber = newImageNumber;
 	previewImageView.image = [[overviewController.imagePickerController.dataSource
 							   imagePicker:overviewController.imagePickerController
 							   imageForImageNumber:imageNumber]
