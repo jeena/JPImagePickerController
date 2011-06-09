@@ -34,11 +34,10 @@
 	[self setImagePickerTitle:imagePickerController.imagePickerTitle];
 	
 	UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
-																				  target:self
-																				  action:@selector(cancelPicking:)];
-	self.navigationItem.rightBarButtonItem = cancelButton;
-	[cancelButton release];
-	
+                                                                                  target:self
+                                                                                  action:@selector(cancelPicking:)];
+    self.navigationItem.rightBarButtonItem = cancelButton;
+    [cancelButton release];	
 	
 	UIButton *button;
 	UIImage *thumbnail;
@@ -71,7 +70,7 @@
 	
 	scrollView.contentSize = CGSizeMake(self.view.frame.size.width, height);
 	scrollView.clipsToBounds = YES;
-	
+		
 }
 
 - (void)setImagePickerTitle:(NSString *)newTitle {
@@ -97,10 +96,15 @@
 
 
 - (void)buttonTouched:(UIButton *)sender {
+	[self performSelector:@selector(pushDetailViewWithSender:) withObject:sender afterDelay:0];
+}
+
+- (void)pushDetailViewWithSender:(UIButton *)sender {
 	if (detailController == nil) {
 		detailController = [[JPImagePickerDetailController alloc] initWithOverviewController:self];
 	}
-	[detailController prepareForImageNumber:(NSInteger)sender.tag];
+	
+	detailController.imageNumber = sender.tag;
 	[imagePickerController.modalNavigationController pushViewController:detailController animated:YES];
 }
 

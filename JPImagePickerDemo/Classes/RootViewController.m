@@ -26,6 +26,9 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 	chosenImage = -1;
 	self.navigationItem.title = @"ImagePicker Demo";
+    self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+    
 }
 
 
