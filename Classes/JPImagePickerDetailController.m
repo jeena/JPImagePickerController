@@ -13,6 +13,7 @@
 @implementation JPImagePickerDetailController
 
 @synthesize previewImageView, overviewController, imageNumber;
+@synthesize largeImage;
 
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController {
 	if (self = [super initWithNibName:@"JPImagePickerDetailController" bundle:nil]) {
@@ -64,12 +65,13 @@
 
 
 - (void)prepareForImageNumber:(NSInteger)newImageNumber {
-	imageNumber = newImageNumber;
+    imageNumber = newImageNumber;
 	previewImageView.image = [[overviewController.imagePickerController.dataSource
 							   imagePicker:overviewController.imagePickerController
 							   imageForImageNumber:imageNumber]
 							  scaleToSize:CGSizeMake(kJPImagePickerControllerPreviewImageSizeHeight, kJPImagePickerControllerPreviewImageSizeHeight)
 							  onlyIfNeeded:YES];
+	largeImage = previewImageView.image;
 }
 
 - (IBAction)cancelPreview:(id)sender {

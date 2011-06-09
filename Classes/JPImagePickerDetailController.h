@@ -21,11 +21,13 @@
 	IBOutlet UIImageView *previewImageView;
 	NSInteger imageNumber;
 	UIStatusBarStyle originalStatusBarStyle;
+	UIImage * largeImage;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *previewImageView;
 @property (nonatomic, retain, readonly) JPImagePickerOverviewController *overviewController;
 @property (nonatomic) NSInteger imageNumber;
+@property (nonatomic, retain) UIImage * largeImage;
 
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController;
 - (void)prepareForImageNumber:(NSInteger)newImageNumber;
