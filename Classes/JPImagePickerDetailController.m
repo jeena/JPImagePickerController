@@ -13,7 +13,7 @@
 @implementation JPImagePickerDetailController
 
 @synthesize previewImageView, overviewController, imageNumber;
-@synthesize largeImage;
+@synthesize largeImage, scrollView;
 
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController {
 	if (self = [super initWithNibName:@"JPImagePickerDetailController" bundle:nil]) {
@@ -83,6 +83,39 @@
 	[[UIApplication sharedApplication] setStatusBarStyle:overviewController.imagePickerController.originalStatusBarStyle animated:YES];
 	[overviewController.imagePickerController.delegate imagePicker:overviewController.imagePickerController didFinishPickingWithImageNumber:imageNumber];
 }
+
+#pragma mark ScrollView Bits
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollview {
+    return self.previewImageView;
+}
+
+- (CGRect)zoomRectForScale:(float)scale withCenter:(CGPoint)center {
+    
+    CGRect zoomRect;
+    
+    // the zoom rect is in the content view's coordinates.
+    // At a zoom scale of 1.0, it would be the size of the imageScrollView's bounds.
+    // As the zoom scale decreases, so more content is visible, the size of the rect grows.
+    zoomRect.size.height = [self.scrollView frame].size.height / scale;
+    zoomRect.size.width = [self.scrollView frame].size.width / scale;
+    
+    // choose an origin so as to get the right center.
+    zoomRect.origin.x = center.x - (zoomRect.size.width / 2.0);
+    zoomRect.origin.y = center.y - (zoomRect.size.height / 2.0);
+    
+    return zoomRect;
+}
+
+- (void)zoomAction:(UIGestureRecognizer *)gestureRecognizer {
+    // double tap zooms in
+    NSLog(@"Hit the gestureRecognizer");
+    float newScale = [self.scrollView zoomScale] * 2;
+    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+    [self.scrollView zoomToRect:zoomRect animated:YES];
+}
+
+#pragma mark
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
