@@ -9,11 +9,15 @@
 
 #import "JPImagePickerDetailController.h"
 
-
 @implementation JPImagePickerDetailController
 
 @synthesize previewImageView, overviewController, imageNumber;
 @synthesize largeImage, scrollView;
+
+
+#define IMAGE_WIDTH 320
+#define IMAGE_HEIGHT 400
+
 
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController {
 	if (self = [super initWithNibName:@"JPImagePickerDetailController" bundle:nil]) {
@@ -73,13 +77,17 @@
 							  onlyIfNeeded:YES];
     previewImageView = [[UIImageView alloc] initWithImage:image];
 	
-	largeImage = previewImageView.image;
-    scrollView.contentSize = CGSizeMake(kJPImagePickerControllerPreviewImageSizeHeight, kJPImagePickerControllerPreviewImageSizeHeight);
+	largeImage = image;
+    //scrollView.contentSize = previewImageView.frame.size;
+    scrollView.contentSize = CGSizeMake(IMAGE_WIDTH, IMAGE_HEIGHT);
     [scrollView addSubview:previewImageView];
+    [previewImageView release];
     scrollView.minimumZoomScale = 0.4;
-	scrollView.maximumZoomScale = 4.0;
+	scrollView.maximumZoomScale = 8.0;
 	scrollView.delegate = self;
-	[scrollView setZoomScale:scrollView.minimumZoomScale];
+	[scrollView setZoomScale:1];
+    [image release];
+    
     
 }
 
@@ -136,6 +144,7 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+    //[scrollView release];
 }
 
 
