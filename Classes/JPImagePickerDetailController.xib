@@ -14,7 +14,6 @@
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<string>IBUIBarButtonItem</string>
 			<string>IBUIToolbar</string>
-			<string>IBUIImageView</string>
 			<string>IBUIView</string>
 			<string>IBUIScrollView</string>
 			<string>IBProxyObject</string>
@@ -74,28 +73,13 @@
 							</object>
 						</object>
 					</object>
-					<object class="IBUIScrollView" id="169858227">
+					<object class="IBUIScrollView" id="288548559">
 						<reference key="NSNextResponder" ref="655272210"/>
 						<int key="NSvFlags">268</int>
-						<object class="NSMutableArray" key="NSSubviews">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBUIImageView" id="701591828">
-								<reference key="NSNextResponder" ref="169858227"/>
-								<int key="NSvFlags">274</int>
-								<string key="NSFrameSize">{320, 436}</string>
-								<reference key="NSSuperview" ref="169858227"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="194791387"/>
-								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-								<int key="IBUIContentMode">4</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							</object>
-						</object>
 						<string key="NSFrameSize">{340, 436}</string>
 						<reference key="NSSuperview" ref="655272210"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="701591828"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -104,7 +88,7 @@
 				<string key="NSFrame">{{0, 20}, {320, 480}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="169858227"/>
+				<reference key="NSNextKeyView" ref="288548559"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">2</int>
 					<bytes key="NSRGB">MCAwLjAwNzg0MzEzNzcxOSAwLjAwNzg0MzEzNzcxOQA</bytes>
@@ -128,14 +112,6 @@
 					<int key="connectionID">10</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">previewImageView</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="701591828"/>
-					</object>
-					<int key="connectionID">11</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">cancelPreview:</string>
 						<reference key="source" ref="80159321"/>
@@ -154,7 +130,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="169858227"/>
+						<reference key="source" ref="288548559"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">15</int>
@@ -163,7 +139,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">scrollView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="169858227"/>
+						<reference key="destination" ref="288548559"/>
 					</object>
 					<int key="connectionID">16</int>
 				</object>
@@ -195,7 +171,7 @@
 						<reference key="object" ref="655272210"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="169858227"/>
+							<reference ref="288548559"/>
 							<reference ref="194791387"/>
 						</object>
 						<reference key="parent" ref="0"/>
@@ -229,17 +205,11 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="169858227"/>
+						<reference key="object" ref="288548559"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="701591828"/>
 						</object>
 						<reference key="parent" ref="655272210"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">5</int>
-						<reference key="object" ref="701591828"/>
-						<reference key="parent" ref="169858227"/>
 					</object>
 				</object>
 			</object>
@@ -253,7 +223,6 @@
 					<string>-2.IBPluginDependency</string>
 					<string>14.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
-					<string>5.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>7.IBPluginDependency</string>
 					<string>8.IBPluginDependency</string>
@@ -264,7 +233,6 @@
 					<string>JPImagePickerDetailController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>UIResponder</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

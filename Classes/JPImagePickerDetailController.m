@@ -66,12 +66,21 @@
 
 - (void)prepareForImageNumber:(NSInteger)newImageNumber {
     imageNumber = newImageNumber;
-	previewImageView.image = [[overviewController.imagePickerController.dataSource
+    UIImage * image = [[overviewController.imagePickerController.dataSource
 							   imagePicker:overviewController.imagePickerController
 							   imageForImageNumber:imageNumber]
 							  scaleToSize:CGSizeMake(kJPImagePickerControllerPreviewImageSizeHeight, kJPImagePickerControllerPreviewImageSizeHeight)
 							  onlyIfNeeded:YES];
+    previewImageView = [[UIImageView alloc] initWithImage:image];
+	
 	largeImage = previewImageView.image;
+    scrollView.contentSize = CGSizeMake(kJPImagePickerControllerPreviewImageSizeHeight, kJPImagePickerControllerPreviewImageSizeHeight);
+    [scrollView addSubview:previewImageView];
+    scrollView.minimumZoomScale = 0.4;
+	scrollView.maximumZoomScale = 4.0;
+	scrollView.delegate = self;
+	[scrollView setZoomScale:scrollView.minimumZoomScale];
+    
 }
 
 - (IBAction)cancelPreview:(id)sender {
