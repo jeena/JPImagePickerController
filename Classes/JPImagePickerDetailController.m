@@ -78,7 +78,6 @@
     previewImageView = [[UIImageView alloc] initWithImage:image];
 	
 	largeImage = image;
-    //scrollView.contentSize = previewImageView.frame.size;
     scrollView.contentSize = CGSizeMake(IMAGE_WIDTH, IMAGE_HEIGHT);
     [scrollView addSubview:previewImageView];
     [previewImageView release];
@@ -86,13 +85,13 @@
 	scrollView.maximumZoomScale = 8.0;
 	scrollView.delegate = self;
 	[scrollView setZoomScale:1];
-    [image release];
     
     
 }
 
 - (IBAction)cancelPreview:(id)sender {
 	[[UIApplication sharedApplication] setStatusBarStyle:originalStatusBarStyle animated:YES];
+    [previewImageView removeFromSuperview];
 	[self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -104,7 +103,7 @@
 #pragma mark ScrollView Bits
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollview {
-    return self.previewImageView;
+    return previewImageView;
 }
 
 - (CGRect)zoomRectForScale:(float)scale withCenter:(CGPoint)center {
@@ -126,7 +125,6 @@
 
 - (void)zoomAction:(UIGestureRecognizer *)gestureRecognizer {
     // double tap zooms in
-    NSLog(@"Hit the gestureRecognizer");
     float newScale = [self.scrollView zoomScale] * 2;
     CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
     [self.scrollView zoomToRect:zoomRect animated:YES];
@@ -145,6 +143,7 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
     //[scrollView release];
+    
 }
 
 
