@@ -78,6 +78,7 @@
     previewImageView = [[UIImageView alloc] initWithImage:image];
 	
 	largeImage = image;
+    //Create Scroll view and add the ImageViewController.
     scrollView.contentSize = CGSizeMake(IMAGE_WIDTH, IMAGE_HEIGHT);
     [scrollView addSubview:previewImageView];
     [previewImageView release];
@@ -85,7 +86,6 @@
 	scrollView.maximumZoomScale = 8.0;
 	scrollView.delegate = self;
 	[scrollView setZoomScale:1];
-    
     
 }
 
@@ -142,7 +142,6 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
-    //[scrollView release];
     
 }
 
