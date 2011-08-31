@@ -16,18 +16,20 @@
 @protocol JPImagePickerControllerDataSource;
 @class JPImagePickerOverviewController;
 
-@interface JPImagePickerDetailController : UIViewController {
+@interface JPImagePickerDetailController : UIViewController <UIScrollViewDelegate> {
 	JPImagePickerOverviewController *overviewController;
 	IBOutlet UIImageView *previewImageView;
 	NSInteger imageNumber;
 	UIStatusBarStyle originalStatusBarStyle;
 	UIImage * largeImage;
+    IBOutlet UIScrollView *scrollView;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *previewImageView;
 @property (nonatomic, retain, readonly) JPImagePickerOverviewController *overviewController;
 @property (nonatomic) NSInteger imageNumber;
 @property (nonatomic, retain) UIImage * largeImage;
+@property (nonatomic, retain) UIScrollView *scrollView;
 
 - (id)initWithOverviewController:(JPImagePickerOverviewController *)newOverviewController;
 - (void)prepareForImageNumber:(NSInteger)newImageNumber;
