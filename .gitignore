@@ -10,3 +10,6 @@ build/*
 .DS_Store
 profile
 
+JPImagePickerDemo/JPImagePickerDemo.xcodeproj/project.xcworkspace/*
+JPImagePickerDemo/JPImagePickerDemo.xcodeproj/xcuserdata/*
+JPImagePickerDemo/build/*

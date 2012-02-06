@@ -22,8 +22,16 @@
     if (self = [super initWithNibName:@"JPImagePickerOverviewController" bundle:nil]) {
         // Custom initialization
 		imagePickerController = newImagePickerController;
+        [imagePickerController retain];
     }
     return self;
+}
+
+- (void)dealloc {
+	[imagePickerController release];
+	[detailController release];
+	[scrollView release];
+    [super dealloc];
 }
 
 
@@ -118,14 +126,6 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
-}
-
-
-- (void)dealloc {
-	[imagePickerController release];
-	[detailController release];
-	[scrollView release];
-    [super dealloc];
 }
 
 

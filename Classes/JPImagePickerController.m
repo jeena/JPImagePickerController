@@ -12,7 +12,7 @@
 
 @implementation JPImagePickerController
 
-@synthesize overviewController, modalNavigationController, delegate, dataSource, originalStatusBarStyle;
+@synthesize overviewController, modalNavigationController, delegate, dataSource, originalStatusBarStyle, imagePickerTitle;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -23,6 +23,13 @@
     return self;
 }
 */
+
+- (void)dealloc {
+    [overviewController release];
+    [modalNavigationController release];
+    [imagePickerTitle release];
+    [super dealloc];
+}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -41,8 +48,13 @@
 }
 
 - (void)setImagePickerTitle:(NSString *)newTitle {
-	imagePickerTitle = newTitle;
-	[overviewController setImagePickerTitle:newTitle];
+    if (newTitle != self.imagePickerTitle) {
+        [imagePickerTitle release];
+        imagePickerTitle = newTitle;
+        [imagePickerTitle retain];
+        [overviewController setImagePickerTitle:newTitle];        
+    }
+    
 }
 
 - (NSString *)imagePickerTitle {
@@ -93,11 +105,5 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
-
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end

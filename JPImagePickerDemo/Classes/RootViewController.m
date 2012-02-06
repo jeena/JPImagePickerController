@@ -19,6 +19,13 @@
 #define IMAGE_WIDTH 320
 #define IMAGE_HEIGHT 400
 
+
+- (void)dealloc {
+    [chosenImageView release];
+    [chosenImageController release];
+    [super dealloc];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -28,7 +35,6 @@
 	self.navigationItem.title = @"ImagePicker Demo";
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-    
 }
 
 
@@ -125,7 +131,7 @@
 	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
 	// [self.navigationController pushViewController:anotherViewController animated:YES];
 	// [anotherViewController release];
-	
+
 	if (indexPath.section == 0) {
 		JPImagePickerController *imagePickerController = [[JPImagePickerController alloc] init];
 		
@@ -215,15 +221,6 @@
 - (UIImage *)imagePicker:(JPImagePickerController *)imagePicker imageForImageNumber:(NSInteger)imageNumber {
 	return [UIImage imageNamed:[NSString stringWithFormat:@"i%i.png", (imageNumber % 4) + 1]];
 }
-
-
-# pragma mark -
-
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end
 

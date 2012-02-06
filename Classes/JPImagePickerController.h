@@ -128,7 +128,6 @@ enum JPImagePickerControllerPreviewImageSize {
 
 @interface JPImagePickerController : UIViewController {
 	IBOutlet UINavigationController *modalNavigationController;
-	JPImagePickerOverviewController *overviewController;
 	UIStatusBarStyle originalStatusBarStyle; 
 	id<JPImagePickerControllerDelegate> delegate;
 	id<JPImagePickerControllerDataSource> dataSource;
@@ -168,7 +167,7 @@ enum JPImagePickerControllerPreviewImageSize {
  If this property is nil, the picker is dismissed immediately if you try
  to show it.
  */
-@property (nonatomic, retain) id<JPImagePickerControllerDelegate> delegate;
+@property (nonatomic, assign) id<JPImagePickerControllerDelegate> delegate;
 
 /*!
  @property dataSource
@@ -177,7 +176,7 @@ enum JPImagePickerControllerPreviewImageSize {
  and implement the required methods to return the number of components and the
  number of rows in each component.
  */
-@property (nonatomic, retain) id<JPImagePickerControllerDataSource> dataSource;
+@property (nonatomic, assign) id<JPImagePickerControllerDataSource> dataSource;
 
 /*!
  @property imagePickerTitle

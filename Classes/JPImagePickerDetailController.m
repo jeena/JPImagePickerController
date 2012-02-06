@@ -28,6 +28,13 @@
     return self;
 }
 
+- (void)dealloc {
+    [previewImageView release];
+    [overviewController release];
+    [largeImage release];
+    [scrollView release];
+    [super dealloc];
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -75,9 +82,11 @@
 							   imageForImageNumber:imageNumber]
 							  scaleToSize:CGSizeMake(kJPImagePickerControllerPreviewImageSizeWidth, kJPImagePickerControllerPreviewImageSizeHeight)
 							  onlyIfNeeded:YES];
-    previewImageView = [[UIImageView alloc] initWithImage:image];
+    
+    self.previewImageView = [[UIImageView alloc] initWithImage:image];
 	
-	largeImage = image;
+	self.largeImage = image;
+    
     //Center the image code
     CGRect frameToCenter = previewImageView.frame;
     CGSize boundsSize = CGSizeMake(kJPImagePickerControllerPreviewImageSizeWidth, kJPImagePickerControllerPreviewImageSizeHeight);
@@ -97,7 +106,7 @@
     //Create Scroll view and add the ImageViewController.
     scrollView.contentSize = CGSizeMake(kJPImagePickerControllerPreviewImageSizeWidth, kJPImagePickerControllerPreviewImageSizeHeight);
     [scrollView addSubview:previewImageView];
-    [previewImageView release];
+
     scrollView.minimumZoomScale = 0.4;
 	scrollView.maximumZoomScale = 8.0;
 	scrollView.delegate = self;
@@ -161,11 +170,5 @@
 	// e.g. self.myOutlet = nil;
     
 }
-
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end
